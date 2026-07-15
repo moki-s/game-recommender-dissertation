@@ -1,0 +1,501 @@
+slug,title,release_year,metacritic,platforms,genres,esrb_rating
+baldurs-gate-3,Baldur's Gate III,2023,97,PC; PlayStation 5,Strategy; Adventure; RPG,Mature
+half-life-2-update,Half-Life 2: Update,2015,96,PC,Shooter,Mature
+half-life,Half-Life,1998,96,PC,Shooter; Action,Mature
+red-dead-redemption-2,Red Dead Redemption 2,2018,96,PC,Action,Mature
+bioshock,BioShock,2007,96,PC,Shooter; Action,Mature
+half-life-2,Half-Life 2,2004,96,PC,Shooter; Action,Mature
+grand-theft-auto-iv-complete-edition,Grand Theft Auto IV: Complete Edition,2010,95,PC,Adventure; Action,Adults Only
+divinity-original-sin-2,Divinity: Original Sin 2,2017,95,PC,Strategy; RPG,Mature
+baldurs-gate-ii-shadows-of-amn,Baldur's Gate II: Shadows of Amn,2000,95,PC,Strategy; RPG,Teen
+portal-2,Portal 2,2011,95,PC,Shooter; Puzzle,Everyone 10+
+red-dead-redemption,Red Dead Redemption,2010,95,PC; PlayStation 5,Shooter; Action,Mature
+grand-theft-auto-iv,Grand Theft Auto IV,2008,95,PC,Adventure; Action,Mature
+xcom-2-war-of-the-chosen,XCOM 2: War of the Chosen,2017,95,PC,Strategy,Teen
+elden-ring,Elden Ring,2022,95,PC; PlayStation 5,Action; RPG,Mature
+diablo,Diablo,1996,94,PC,Action; RPG,unknown
+the-elder-scrolls-iv-oblivion,The Elder Scrolls IV: Oblivion,2006,94,PC,Indie; Adventure; RPG,Mature
+grand-theft-auto-vice-city,Grand Theft Auto: Vice City,2002,94,PC,Action,Mature
+the-orange-box,The Orange Box,2008,94,PC,Shooter,Teen
+sid-meiers-civilization-2,Sid Meier's Civilization 2,1996,94,PC,Strategy,Everyone
+quake,Quake,1996,94,PC; PlayStation 5,Shooter; Action,unknown
+tony-hawks-pro-skater-3,Tony Hawk's Pro Skater 3,2001,94,PC,Arcade; Sports,unknown
+the-elder-scrolls-v-skyrim-legendary-edition,The Elder Scrolls V: Skyrim Legendary Edition,2013,94,PC,Adventure; RPG,Mature
+the-elder-scrolls-iv-oblivion-game-of-the-year-edi,The Elder Scrolls IV: Oblivion Game of the Year Edition,2009,94,PC,RPG,Mature
+batman-arkham-city-2,Batman: Arkham City,2011,94,PC,Action,Teen
+the-elder-scrolls-v-skyrim,The Elder Scrolls V: Skyrim,2011,94,PC; PlayStation 5,Action; RPG,Mature
+bioshock-infinite,BioShock Infinite,2013,94,PC,Shooter; Action,Mature
+grim-fandango,Grim Fandango,1998,94,PC,Adventure,unknown
+metal-gear-solid-1,Metal Gear Solid,1998,94,PC,Action,Mature
+divinity-original-sin-enhanced-edition,Divinity: Original Sin - Enhanced Edition,2015,94,PC,Indie; RPG,Mature
+divinity-original-sin-ii-definitive-edition,Divinity: Original Sin 2 - Definitive Edition,2018,94,PC,RPG,Mature
+command-conquer-old,Command & Conquer,1995,94,PC,Strategy,unknown
+jet-set-radio-2012,Jet Set Radio,2000,94,PC,Platformer; Action; Sports,Teen
+mass-effect-2,Mass Effect 2,2010,94,PC,Action; RPG,Mature
+sid-meiers-civilization-iv,Sid Meier's Civilization IV,2005,94,PC,Strategy,Everyone 10+
+god-of-war-2,God of War (2018),2018,94,PC,Action,Mature
+persona-5-royal,Persona 5 Royal,2020,94,PC; PlayStation 5,Adventure; RPG,Mature
+company-of-heroes,Company of Heroes,2006,93,PC,Strategy,unknown
+starcraft-ii-wings-of-liberty,StarCraft II: Wings of Liberty,2010,93,PC,Strategy,Teen
+dwarf-fortress,Dwarf Fortress,2006,93,PC,Strategy; Indie; RPG; Simulation,unknown
+half-life-alyx,Half-Life: Alyx,2020,93,PC,Shooter; Adventure; Action,Mature
+cut-the-rope,Cut the Rope,2010,93,PC,Casual; Indie; Arcade; Puzzle,unknown
+world-of-warcraft,World of Warcraft,2004,93,PC,Massively Multiplayer; RPG,Teen
+okami,Okami,2006,93,PC,Adventure; Action,Teen
+grand-theft-auto-iii,Grand Theft Auto III,2001,93,PC,Shooter; Action,Mature
+the-last-of-us-part-2,The Last of Us Part II,2020,93,PlayStation 5,Shooter; Adventure; Action,Mature
+hades-2018,Hades,2020,93,PC; PlayStation 5,Indie; Adventure; Action; RPG,Teen
+maniac-mansion-day-of-the-tentacle,Maniac Mansion: Day of the Tentacle,1993,93,PC,Adventure; Puzzle,Everyone
+uncharted-4-a-thiefs-end,Uncharted 4: A Thief’s End,2016,93,PlayStation 5,Shooter; Action,Teen
+unreal-tournament-2004-editors-choice-edition,Unreal Tournament 2004: Editor's Choice Edition,2004,93,PC,Action,Mature
+unreal-tournament-2004,Unreal Tournament 2004,2004,93,PC,Shooter; Action,Mature
+grand-theft-auto-san-andreas,Grand Theft Auto: San Andreas,2004,93,PC,Action,Mature
+homeworld,Homeworld,1999,93,PC,Strategy,unknown
+starcraft-2,StarCraft II,2010,93,PC,Strategy,Teen
+sid-meiers-alpha-centauri,Sid Meier's Alpha Centauri,1999,92,PC,Strategy,unknown
+thief-gold,Thief Gold,1999,92,PC,Action; Simulation,Mature
+unreal-tournament,Unreal Tournament,1999,92,PC,Shooter; Action,Mature
+final-fantasy-vi,FINAL FANTASY VI,1994,92,PC,RPG,unknown
+the-walking-dead,The Walking Dead: Season 1,2012,92,PC,Adventure; Action,Mature
+demons-souls-remake,Demon's Souls (2020),2020,92,PlayStation 5,Action; RPG,Mature
+prune,Prune,2015,92,PC,Puzzle; Casual; Simulation; Indie; Family,unknown
+out-of-the-park-baseball-17,Out of the Park Baseball 17,2016,92,PC,Strategy; Indie; Simulation; Sports,unknown
+threes,Threes!,2014,92,PC,Educational; Puzzle; Casual; Card; Indie,unknown
+modern-warfare,Call of Duty 4: Modern Warfare,2007,92,PC,Shooter; Action,Mature
+sid-meiers-gettysburg,Sid Meier's Gettysburg!,1997,92,PC,Strategy,Everyone 10+
+galactic-civilizations-ii-ultimate-edition,Galactic Civilizations II: Ultimate Edition,2011,92,PC,Strategy,unknown
+unreal-tournament-game-of-the-year-edition,Unreal Tournament: Game of the Year Edition,2000,92,PC,Shooter; Massively Multiplayer; Action,Mature
+splinter-cell-chaos-theory,Tom Clancy's Splinter Cell Chaos Theory,2005,92,PC,Adventure; Action,Mature
+okami-hd-da-shen-jue-jing-ban,OKAMI HD,2017,92,PC,Adventure; Action,Teen
+undertale,Undertale,2015,92,PC,Indie; RPG,Everyone 10+
+forza-motorsport,Forza Motorsport (2005),2005,92,PC,Casual; Racing,unknown
+rome-total-war-collection,Rome: Total War - Collection,2007,92,PC,Strategy,unknown
+a-monsters-expedition,A Monster's Expedition,2020,92,PC,Adventure; Puzzle; Casual; Strategy; Indie,unknown
+thief-the-dark-project,Thief: The Dark Project,1998,92,PC,Action,unknown
+warcraft-3-reign-of-chaos,Warcraft 3: Reign of Chaos,2002,92,PC,Strategy,Teen
+age-of-empires-ii-age-of-kings,Age of Empires II: Age of Kings,1999,92,PC,Strategy,unknown
+braid,Braid,2008,92,PC,Action; Puzzle; Arcade; Indie; Platformer,Everyone 10+
+the-witcher-3-wild-hunt-blood-and-wine,The Witcher 3: Wild Hunt – Blood and Wine,2016,92,PC,RPG,Mature
+grand-theft-auto-v,Grand Theft Auto V,2013,92,PC; PlayStation 5,Action,Mature
+the-witcher-3-game-of-the-year,The Witcher 3 Wild Hunt - Complete Edition,2016,92,PC; PlayStation 5,Adventure; RPG,Mature
+altos-adventure,Alto's Adventure,2015,92,PC,Action; Sports,unknown
+system-shock-2,System Shock 2,1999,92,PC,Shooter; Action; RPG,Mature
+team-fortress-2,Team Fortress 2,2007,92,PC,Shooter; Action,Mature
+the-witcher-3-wild-hunt,The Witcher 3: Wild Hunt,2015,92,PC; PlayStation 5,Action; RPG,Mature
+journey,Journey,2012,92,PC,Family; Indie; Adventure,unknown
+fallout-3-game-of-the-year-edition,Fallout 3: Game of the Year Edition,2009,91,PC,Action; RPG,Mature
+medal-of-honor-allied-assault,Medal of Honor: Allied Assault,2002,91,PC,Shooter,Teen
+dragon-quest-xi,DRAGON QUEST XI: Echoes of an Elusive Age,2017,91,PC,RPG,Teen
+world-of-warcraft-wrath-of-the-lich-king,World of Warcraft: Wrath of the Lich King,2008,91,PC,Massively Multiplayer; RPG,Teen
+splinter-cell,Tom Clancy's Splinter Cell,2002,91,PC,Adventure; Action,unknown
+crysis,Crysis,2007,91,PC,Shooter; Action,Mature
+disco-elysium,Disco Elysium,2019,91,PC; PlayStation 5,Indie; Adventure; RPG,Mature
+myth-the-fallen-lords,Myth: The Fallen Lords,1997,91,PC,Strategy,unknown
+tumblestone,Tumblestone,2016,91,PC,Action; Puzzle; Casual; Strategy; Indie,Everyone
+ticket-to-ride,Ticket to Ride,2009,91,PC,Casual; Strategy; Simulation; Indie; Board Games,Everyone
+world-of-warcraft-the-burning-crusade,World of Warcraft: The Burning Crusade,2007,91,PC,Massively Multiplayer; RPG,Teen
+nier-automata-game-of-the-yorha-edition,NieR:Automata Game of the YoRHa Edition,2019,91,PC,Action,Mature
+death-road-to-canada,Death Road to Canada,2016,91,PC,Indie; Adventure; Action; RPG,unknown
+call-of-duty,Call of Duty,2003,91,PC,Shooter,Teen
+fez,FEZ,2012,91,PC,Adventure; Action; Puzzle; Indie; Platformer,Everyone
+mark-of-the-ninja,Mark of the Ninja,2012,91,PC,Platformer; Indie; Action,Mature
+resident-evil-2-2019,Resident Evil 2,2019,91,PC; PlayStation 5,Adventure; Action,Mature
+tony-hawks-pro-skater-2,Tony Hawk's Pro Skater 2,2000,91,PC,Arcade; Sports,Teen
+star-wars-jedi-knight-dark-forces-ii,STAR WARS Jedi Knight: Dark Forces II,1997,91,PC,Shooter; Action,Mature
+freespace-2,Freespace 2,1999,91,PC,Action; Simulation,Teen
+asphalt-8-airborne,Asphalt 8: Airborne,2013,91,PC,Casual; Racing; Arcade,Teen
+baldurs-gate,Baldur's Gate,1998,91,PC,Strategy; RPG,Teen
+halo-3,Halo 3,2007,91,PC,Shooter,Mature
+deus-ex-human-revolution-directors-cut,Deus Ex: Human Revolution - Director's Cut,2013,91,PC,Action; RPG,Mature
+dark-souls-ii,Dark Souls II,2014,91,PC,Action; RPG,Mature
+batman-arkham-city-goty,Batman: Arkham City - Game of the Year Edition,2012,91,PC,Adventure; Action,Teen
+cinco-paus,Cinco Paus,2017,91,PC,Strategy; Adventure; Puzzle,Everyone 10+
+no-one-lives-forever-2-a-spy-in-harms-way,No One Lives Forever 2: A Spy in H.A.R.M.'s Way,2002,91,PC,Shooter; Action,Mature
+the-longest-journey,The Longest Journey,1999,91,PC,Adventure; Puzzle,Mature
+planescape-torment,Planescape: Torment,1999,91,PC,Strategy; RPG,Teen
+dragon-quest-xi-s-echoes-of-an-elusive-age-definit,DRAGON QUEST XI S: Echoes of an Elusive Age - Definitive Edition,2019,91,PC,Adventure; RPG,Teen
+street-fighter-4,Street Fighter IV,2009,91,PC,Arcade; Action; Fighting,Mature
+rez-infinite,Rez Infinite,2016,91,PC,Casual; Indie; Action,Everyone 10+
+dragon-age-origins,Dragon Age: Origins,2009,91,PC,RPG,Mature
+batman-aa-goty,Batman: Arkham Asylum Game of the Year Edition,2010,91,PC,Platformer; Adventure; Action,unknown
+fallout-3,Fallout 3,2008,91,PC,Shooter; RPG,Mature
+metal-gear-solid-v-the-phantom-pain,Metal Gear Solid V: The Phantom Pain,2015,91,PC,Shooter; Action,Mature
+celeste,Celeste,2018,91,PC,Platformer; Indie,Everyone 10+
+resident-evil,Resident Evil,1996,91,PC,Shooter; Action,Mature
+ori-and-the-will-of-the-wisps,Ori and the Will of the Wisps,2020,91,PC,Platformer; Adventure; Action,Everyone
+tony-hawks-pro-skater-4,Tony Hawk's Pro Skater 4,2002,91,PC,Arcade; Sports,unknown
+battlefield-2,Battlefield 2,2005,91,PC,Shooter; Action,Teen
+legacy-of-kain-soul-reaver,Legacy of Kain: Soul Reaver,1999,91,PC,Platformer; Adventure; Action,Mature
+shovel-knight-treasure-trove,Shovel Knight: Treasure Trove,2014,91,PC,Platformer; Adventure; Action,Everyone 10+
+halo-reach,Halo: Reach,2010,91,PC,Shooter,Mature
+batman-arkham-asylum,Batman: Arkham Asylum,2009,91,PC,Action,Teen
+dishonored,Dishonored,2012,91,PC,Adventure; Action; RPG,Mature
+overwatch,Overwatch,2016,91,PC,Casual; Shooter; Massively Multiplayer; Action,Teen
+tadpole-treble,Tadpole Treble,2016,90,PC,Indie; Adventure; Action,unknown
+silent-hunter-iii,Silent Hunter III,2005,90,PC,Strategy; Simulation,Teen
+syphon-filter,Syphon Filter,1999,90,PlayStation 5,Shooter; Action,Teen
+tony-hawks-underground,Tony Hawk's Underground,2003,90,PC,Sports,Teen
+n-nplusplus,N++ (NPLUSPLUS),2015,90,PC,Action; Puzzle,unknown
+gears-of-war,Gears of War,2006,90,PC,Shooter; Action,Mature
+tetris-effect,Tetris Effect,2018,90,PC,Puzzle,Everyone 10+
+microsoft-flight-simulator,Microsoft Flight Simulator 2020,2020,90,PC,Simulation,Everyone
+deus-ex,Deus Ex,2000,90,PC,Shooter; Action; RPG,Mature
+nba-2k17,NBA 2K17,2016,90,PC,Action; Sports,unknown
+portal-still-alive,Portal: Still Alive,2008,90,PC,Platformer; Action; Puzzle,Teen
+splinter-cell-pandora-tomorrow,Tom Clancy's Splinter Cell: Pandora Tomorrow,2004,90,PC,Adventure; Action,Teen
+halo-combat-evolved,Halo: Combat Evolved,2001,90,PC,Shooter; Action,Mature
+the-witcher-3-wild-hunt-hearts-of-stone,The Witcher 3: Wild Hunt – Hearts of Stone,2015,90,PC,RPG,Mature
+total-war-shogun-2,Total War: SHOGUN 2,2011,90,PC,Strategy,unknown
+sea-of-stars-2,Sea of Stars,2023,90,PC; PlayStation 5,RPG,Teen
+dota-2,Dota 2,2013,90,PC,Massively Multiplayer; Action,unknown
+shadows-die-twice,Sekiro: Shadows Die Twice,2019,90,PC,Action; RPG,Mature
+spelunky-2,Spelunky 2,2020,90,PC,Platformer; Indie; Action,unknown
+freedom-force,Freedom Force,2002,90,PC,Strategy; Action; RPG,Teen
+world-of-warcraft-cataclysm,World of Warcraft: Cataclysm,2010,90,PC,Massively Multiplayer; RPG,Teen
+ape-escape,Ape Escape,1999,90,PlayStation 5,Platformer,Everyone
+final-fantasy-viii,FINAL FANTASY VIII,1999,90,PC,RPG,Mature
+bayonetta,Bayonetta,2009,90,PC,Adventure; Action,Mature
+brothers-a-tale-of-two-sons-2,Brothers: A Tale of Two Sons,2013,90,PC,Indie; Adventure; Action,Teen
+into-the-breach,Into the Breach,2018,90,PC,Strategy; Indie; RPG,Everyone 10+
+resident-evil-2,Resident Evil 2 (1998),1998,90,PC,Action,Mature
+civilization-v,Sid Meier's Civilization V,2010,90,PC,Strategy,Everyone 10+
+the-room-three,The Room Three,2015,90,PC,Indie; Adventure; Puzzle,unknown
+beat-saber,Beat Saber,2019,90,PC; PlayStation 5,Indie; Action,Teen
+mass-effect-3,Mass Effect 3,2012,90,PC,Action; RPG,Mature
+diablo-iv,Diablo IV,2023,90,PC; PlayStation 5,Action; RPG,unknown
+hearthstone,Hearthstone,2014,90,PC,Card; Strategy,Teen
+tetris-effect-connected,Tetris Effect: Connected,2020,90,PC,Casual; Indie; Puzzle,Everyone
+black-white,Black & White,2001,90,PC,Indie; Strategy; Adventure; RPG,unknown
+the-stanley-parable-ultra-deluxe,The Stanley Parable: Ultra Deluxe,2022,90,PC; PlayStation 5,Casual; Indie; Adventure,unknown
+deus-ex-game-of-the-year-edition,Deus Ex: Game of the Year Edition,2000,90,PC,Shooter; Action; RPG,Mature
+forza-horizon-4,Forza Horizon 4,2018,90,PC,Racing; Arcade,Everyone
+stephens-sausage-roll,Stephen's Sausage Roll,2016,90,PC,Indie,unknown
+empire-total-war,Empire: Total War,2009,90,PC,Strategy,unknown
+spelunky,Spelunky,2012,90,PC,Platformer; Indie,Teen
+world-of-goo,World of Goo,2008,90,PC,Educational; Puzzle; Strategy; Indie; Family,Everyone
+the-chronicles-of-riddick-escape-from-butcher-bay,The Chronicles of Riddick: Escape from Butcher Bay,2004,90,PC,Shooter; Action,Mature
+disco-elysium-final-cut,Disco Elysium: Final Cut,2021,90,PC; PlayStation 5,Adventure; RPG,unknown
+half-life-2-episode-two,Half-Life 2: Episode Two,2007,90,PC,Shooter; Action; Puzzle,Mature
+sid-meiers-civilization-iii-complete,Sid Meier's Civilization III Complete,2001,90,PC,Strategy; Simulation,Everyone
+portal,Portal,2007,90,PC,Action; Puzzle,Teen
+guild-warssup-sup-game-of-the-year-edition,Guild Wars - Game of the Year Edition,2009,89,PC,Massively Multiplayer; RPG,unknown
+framed-2,Framed 2,2017,89,PC,Adventure; Puzzle,unknown
+dicey-dungeons,Dicey Dungeons,2019,89,PC,Strategy; Indie; RPG,Teen
+chained-echoes,Chained Echoes,2022,89,PC; PlayStation 5,Indie; RPG,unknown
+sonic-adventure-2,Sonic Adventure 2,2001,89,PC,Platformer; Adventure; Action,Everyone 10+
+prince-of-persia-the-sands-of-time,Prince of Persia: The Sands of Time,2003,89,PC,Adventure; Action,Mature
+nex-machina,Nex Machina,2017,89,PC,Indie; Action,unknown
+monster-hunter-world-iceborne,Monster Hunter World: Iceborne,2019,89,PC,Massively Multiplayer; Action; RPG,Teen
+mass-effect,Mass Effect,2007,89,PC,Action; RPG,Mature
+left-4-dead-2,Left 4 Dead 2,2009,89,PC,Shooter; Action,Mature
+assassins-creed-ii,Assassin's Creed II,2009,89,PC,Action,Mature
+railroad-tycoon-2,Railroad Tycoon 2,1998,89,PC,Strategy,unknown
+labyrinth-2,Labyrinth 2,2009,89,PC,Casual; Indie; Arcade; Puzzle,Everyone 10+
+railroad-tycoon-ii-platinum,Railroad Tycoon II Platinum,2007,89,PC,Strategy; Simulation,unknown
+descent-3,Descent 3,1999,89,PC,Action,unknown
+homeworld-cataclysm,Homeworld: Cataclysm,2000,89,PC,Strategy,Everyone
+pillars-of-eternity,Pillars of Eternity,2015,89,PC,RPG,unknown
+battlefield-1942,Battlefield 1942,2002,89,PC,Shooter; Action,Teen
+max-payne,Max Payne,2001,89,PC,Shooter; Action,Mature
+gravity-circuit,Gravity Circuit,2023,89,PC; PlayStation 5,Indie; Action,unknown
+grand-theft-auto-iv-the-lost-and-damned,Grand Theft Auto IV: The Lost and Damned,2009,89,PC,Action,Mature
+dark-souls-artorias-of-the-abyss,Dark Souls: Artorias of the Abyss,2012,89,PC,Action; RPG,Mature
+silent-hill-2,Silent Hill 2 (2001),2001,89,PC,Adventure; Action,Mature
+morrowind,The Elder Scrolls III: Morrowind,2002,89,PC,RPG,Teen
+railroad-tycoon-ii,Railroad Tycoon II,1998,89,PC,Strategy,unknown
+star-control-3,Star Control 3,1996,89,PC,Strategy; Adventure,Teen
+sacrifice,Sacrifice,2000,89,PC,Strategy,Teen
+descent-2-1996,Descent 2 (1996),1996,89,PC,Shooter; Action,unknown
+the-curse-of-monkey-island,The Curse of Monkey Island,1997,89,PC,Adventure,unknown
+monument-valley,Monument Valley,2014,89,PC,Casual; Adventure; Puzzle,Everyone
+star-wars-jedi-knight-ii-jedi-outcast,Star Wars Jedi Knight II: Jedi Outcast,2002,89,PC,Shooter; Adventure; Action,Teen
+flower,Flower,2009,89,PC,Arcade; Family; Casual; Adventure,Everyone 10+
+far-cry,Far Cry,2004,89,PC,Shooter; Action,Mature
+stardew-valley,Stardew Valley,2016,89,PC,Indie; RPG; Simulation,Everyone 10+
+star-control-kessari-quadrant,Star Control: Kessari Quadrant,2017,89,PC,Indie; Strategy; Adventure; Action,unknown
+phantasy-star-online,Phantasy Star Online,2001,89,PC,Shooter; Adventure; Action; RPG; Strategy; Massively Multiplayer,Teen
+f1-2017,F1 2017,2017,89,PC,Racing; Sports,Everyone
+rise-of-nations-extended-edition,Rise of Nations: Extended Edition,2014,89,PC,Strategy; Simulation,unknown
+world-in-conflict,World in Conflict,2007,89,PC,Strategy,Teen
+chicory-a-colorful-tale,Chicory: A Colorful Tale,2021,89,PC,Indie; Adventure; RPG,Everyone
+lone-echo,Lone Echo,2017,89,PC,Adventure; Action; Simulation,Mature
+xcom-enemy-unknown,XCOM: Enemy Unknown,2012,89,PC,Strategy,unknown
+cuphead-the-delicious-last-course,Cuphead: The Delicious Last Course,2022,89,PC,Platformer,unknown
+dark-souls-iii,Dark Souls III,2016,89,PC,Action; RPG,Mature
+horizon-zero-dawn,Horizon Zero Dawn,2017,89,PC,Action; RPG,Teen
+left-4-dead,Left 4 Dead,2008,89,PC,Shooter; Action,Mature
+rayman-legends,Rayman Legends,2013,89,PC,Platformer,Everyone 10+
+monster-hunter-world-2,Monster Hunter: World,2018,89,PC,Adventure; Action; RPG,Teen
+persona-4-golden,Persona 4 Golden,2012,89,PC,RPG,Mature
+age-of-mythology,Age of Mythology,2002,89,PC,Strategy,unknown
+grandia,Grandia,1997,89,PC,RPG,Everyone 10+
+mortal-kombat-11-ultimate,Mortal Kombat 11 Ultimate,2020,89,PC; PlayStation 5,Action; Fighting,Mature
+deus-ex-human-revolution,Deus Ex: Human Revolution,2011,89,PC,Action; RPG,Mature
+mark-of-the-ninja-remastered,Mark of the Ninja: Remastered,2018,89,PC,Platformer; Indie; Action,Mature
+borderlands-2,Borderlands 2,2012,89,PC,Shooter; Action; RPG,Mature
+what-remains-of-edith-finch,What Remains of Edith Finch,2017,89,PC,Indie; Adventure,Teen
+dark-souls,Dark Souls,2011,89,PC,Action; RPG,Mature
+medieval-total-war,Medieval: Total War,2002,88,PC,Strategy,unknown
+thirty-flights-of-loving,Thirty Flights of Loving,2012,88,PC,Casual; Indie; Adventure,unknown
+diablo-iii-ultimate-evil-edition,Diablo III: Ultimate Evil Edition,2014,88,PC,Action; RPG,unknown
+eve-online,EVE Online,2003,88,PC,Strategy; Massively Multiplayer; Action; RPG,Teen
+legends-of-runeterra,Legends of Runeterra,2020,88,PC,Card; Strategy,Teen
+counter-strike,Counter-Strike,2000,88,PC,Shooter; Action,unknown
+tomb-raider-1996,Tomb Raider (1996),1996,88,PC,Action,Teen
+deathloop-2,Deathloop,2021,88,PC; PlayStation 5,Action; RPG,Mature
+steamworld-dig-2,SteamWorld Dig 2,2017,88,PC,Indie; Platformer; Adventure; Action,Everyone 10+
+the-room-two,The Room Two,2013,88,PC,Indie; Puzzle,unknown
+far-cry-3,Far Cry 3,2012,88,PC,Shooter; Action,Mature
+devil-may-cry-5,Devil May Cry 5,2019,88,PC; PlayStation 5,Action,Mature
+hollow-knight,Hollow Knight,2017,88,PC,Platformer; Indie; Action,Everyone 10+
+return-of-the-obra-dinn,Return Of The Obra Dinn,2018,88,PC,Indie; Adventure,Mature
+medieval-total-war-collection,Medieval: Total War - Collection,2002,88,PC,Strategy; Action,unknown
+guacamelee-gold-edition,Guacamelee! Gold Edition,2013,88,PC,Indie; Adventure; Action,unknown
+starraft-ii-legacy-of-the-void,StarСraft II: Legacy of the Void,2015,88,PC,Strategy,Teen
+altos-odyssey,Alto's Odyssey,2018,88,PC,Arcade; Action; Sports,unknown
+medieval-ii-total-war,Medieval II: Total War,2007,88,PC,Strategy; Simulation,Mature
+forza-horizon-3,Forza Horizon 3,2016,88,PC,Racing; Arcade,Everyone
+rome-total-war,ROME: Total War,2004,88,PC,Strategy; Simulation,unknown
+rise-of-the-tomb-raider-20-year-celebration,Rise of the Tomb Raider: 20 Year Celebration,2016,88,PC,Adventure; Action,Adults Only
+night-in-the-woods,Night in the Woods,2017,88,PC,Adventure,Teen
+injustice-2,Injustice 2,2017,88,PC,Fighting,Teen
+counter-strike-source,Counter-Strike: Source,2004,88,PC,Shooter,Mature
+ratchet-clank-rift-apart,Ratchet & Clank: Rift Apart,2021,88,PC; PlayStation 5,Adventure; Action,Everyone 10+
+psychonauts-2,Psychonauts 2,2021,88,PC,Platformer; Adventure; Action,Teen
+it-takes-two-2,It Takes Two,2021,88,PC; PlayStation 5,Platformer; Adventure; Action,Everyone 10+
+assassins-creed-brotherhood-2,Assassin’s Creed Brotherhood,2010,88,PC,Action,Mature
+civilization-vi,Sid Meier’s Civilization VI,2016,88,PC,Strategy; Simulation,Everyone 10+
+myth-2-soulblighter,Myth 2: Soulblighter,1998,88,PC,Strategy,unknown
+peggle,Peggle,2007,88,PC,Arcade; Puzzle,Everyone
+need-for-speed-3-hot-pursuit,Need for Speed 3: Hot Pursuit,1998,88,PC,Racing; Arcade,unknown
+f1-2020,F1 2020,2020,88,PC,Racing; Sports,Everyone
+owlboy,Owlboy,2016,88,PC,Indie; Platformer; Adventure; Action,unknown
+diablo-2,Diablo II,2000,88,PC,Action; RPG,unknown
+warcraft-3-the-frozen-throne,Warcraft 3: The Frozen Throne,2003,88,PC,Strategy,Teen
+starcraft,StarCraft,1998,88,PC,Action,unknown
+tony-hawks-pro-skater-12,Tony Hawk's Pro Skater 1 + 2,2020,88,PC; PlayStation 5,Arcade; Sports,Teen
+shenmue-ii-2001,Shenmue II,2001,88,PC,Adventure; Action; RPG,Teen
+her-story,Her Story,2015,88,PC,Indie; Adventure; Simulation; Puzzle,unknown
+bioshock-2,BioShock 2,2010,88,PC,Shooter; Action,Mature
+diablo-3,Diablo III,2012,88,PC; PlayStation 5,Action; RPG,Mature
+metro-redux,Metro 2033 Redux,2014,88,PC,Shooter; Action,Mature
+torchlight-ii,Torchlight II,2012,88,PC,Action; RPG,Teen
+sly-2-band-of-thieves,Sly 2: Band of Thieves,2004,88,PlayStation 5,Platformer; Adventure; Action,Everyone 10+
+ori-and-the-blind-forest,Ori and the Blind Forest,2015,88,PC,Platformer; Adventure,Everyone
+the-witcher-2-assassins-of-kings-enhanced-edition,The Witcher 2: Assassins of Kings Enhanced Edition,2012,88,PC,RPG,Mature
+grindstone-2,Grindstone,2019,88,PC,Casual; Strategy; Indie; Puzzle,unknown
+shogo-mobile-armor-division,Shogo: Mobile Armor Division,1998,88,PC,Strategy; Shooter; Adventure; Action,Mature
+west-of-loathing,West of Loathing,2017,88,PC,Indie; Adventure; RPG,unknown
+dragon-age-origins-ultimate-edition,Dragon Age: Origins - Ultimate Edition,2010,88,PC,RPG,Mature
+the-witcher-2-assassins-of-kings,The Witcher 2: Assassins of Kings,2011,88,PC,RPG,Mature
+mafia-the-city-of-lost-heaven,Mafia: The City of Lost Heaven,2002,88,PC,Action,Mature
+the-sims,The Sims,2000,88,PC,Simulation,Teen
+ori-and-the-blind-forest-definitive-edition,Ori and the Blind Forest: Definitive Edition,2016,88,PC,Platformer; Adventure,Everyone
+dead-cells,Dead Cells,2018,88,PC,Platformer; Indie; Action; RPG,Teen
+dirt-2,Colin McRae: DiRT 2,2009,88,PC,Racing; Arcade,Teen
+mass-effect-legendary-edition,Mass Effect: Legendary Edition,2021,88,PC; PlayStation 5,Shooter; Adventure; Action; RPG,Mature
+battlefield-1,Battlefield 1,2016,88,PC,Shooter; Action,unknown
+the-stanley-parable,The Stanley Parable,2013,88,PC,Indie; Adventure,unknown
+grand-theft-auto-iv-the-ballad-of-gay-tony,Grand Theft Auto IV: The Ballad of Gay Tony,2009,88,PC,Action,Mature
+final-fantasy-xvi,Final Fantasy XVI,2023,88,PC; PlayStation 5,Action; RPG,Mature
+world-of-warcraft-legion,World of Warcraft: Legion,2016,88,PC,Massively Multiplayer; RPG,Teen
+forza-horizon-3-hot-wheels,Forza Horizon 3 Hot Wheels,2017,88,PC,Racing; Simulation,unknown
+rayman-jungle-run,Rayman Jungle Run,2012,88,PC,Casual; Arcade; Action,unknown
+xcom-2,XCOM 2,2016,88,PC,Strategy; RPG,Teen
+fear,F.E.A.R.,2005,88,PC,Shooter; Action,Adults Only
+there-is-no-game-wd,There Is No Game: Wrong Dimension,2020,88,PC,Casual; Indie; Adventure; Puzzle,unknown
+super-hexagon,Super Hexagon,2012,88,PC,Casual; Indie; Arcade; Action,Everyone
+return-to-castle-wolfenstein,Return to Castle Wolfenstein,2001,88,PC,Shooter,Mature
+star-wars-knights-of-the-old-republic-2,Star Wars: Knights of the Old Republic,2003,88,PC,Action; RPG,Mature
+starfield,Starfield,2023,88,PC,Adventure; RPG,Mature
+pirates-3,Sid Meier's Pirates!,2004,88,PC,Educational; Adventure; Action; RPG; Fighting; Strategy; Arcade; Simulation,unknown
+kerbal-space-program,Kerbal Space Program,2015,88,PC,Indie; Simulation,Everyone
+asgards-wrath,Asgard's Wrath,2019,88,PC,Action; RPG,unknown
+resident-evil-2002,Resident Evil (2002),2002,88,PC,Action,Mature
+rogue-legacy-2,Rogue Legacy 2,2022,88,PC,Indie; Adventure; Action; RPG,unknown
+neon-white,Neon White,2022,88,PC; PlayStation 5,Indie; Shooter; Adventure; Action,Teen
+limbo,Limbo,2010,88,PC,Adventure; Action; Puzzle; Indie; Platformer,Teen
+nioh,Nioh,2017,88,PC,Action; RPG,Mature
+final-fantasy-xiv-stormblood,Final Fantasy XIV: Stormblood,2017,88,PC,Massively Multiplayer; RPG,Teen
+the-nioh-collection,The Nioh Collection,2021,87,PlayStation 5,Action; RPG,Mature
+nba-2k11,NBA 2K11,2010,87,PC,Sports,Everyone
+f1-2019,F1 2019,2019,87,PC,Racing; Simulation; Sports,unknown
+diablo-iii-reaper-of-souls,Diablo III: Reaper of Souls,2014,87,PC,Action; RPG,Mature
+thief-ii-the-metal-age,Thief II: The Metal Age,2000,87,PC,Action; Simulation,unknown
+doom-3,Doom 3,2004,87,PC,Shooter; Action,Mature
+orcs-must-die-unchained,Orcs Must Die! Unchained,2016,87,PC,Strategy; Action,Teen
+towerfall,TowerFall Ascension,2013,87,PC,Platformer; Indie; Action,Everyone 10+
+divinity-original-sin,Divinity: Original Sin,2014,87,PC,Strategy; Indie; RPG,Mature
+dirt-3,DiRT 3,2011,87,PC,Racing; Arcade; Sports,Teen
+monster-hunter-rise,Monster Hunter Rise,2021,87,PC; PlayStation 5,Action; RPG,unknown
+cuphead,Cuphead,2017,87,PC,Platformer; Indie; Action,unknown
+sins-of-a-solar-empire-trinity,Sins of a Solar Empire: Trinity,2010,87,PC,Strategy,unknown
+vignettes,Vignettes,2017,87,PC,Casual; Indie; Adventure; Puzzle,Everyone 10+
+super-meat-boy,Super Meat Boy,2010,87,PC,Platformer; Indie,unknown
+wasteland-2-directors-cut,Wasteland 2: Director's Cut,2015,87,PC,Indie; Strategy; Adventure; RPG,Adults Only
+angry-birds-rio,Angry Birds Rio,2011,87,PC,Casual; Arcade; Puzzle,unknown
+max-payne-3,Max Payne 3,2012,87,PC,Shooter; Action,Mature
+marvels-spider-man,Marvel's Spider-Man,2018,87,PC; PlayStation 5,Action,Teen
+shadowrun-dragonfall-dc,Shadowrun: Dragonfall - Director's Cut,2014,87,PC,Indie; Strategy; Adventure; RPG,unknown
+year-walk,Year Walk,2013,87,PC,Indie; Adventure; RPG,Teen
+hex-shards-of-fate,HEX: Shards of Fate,2016,87,PC,Strategy; Adventure; RPG,unknown
+grand-prix-3,Grand Prix 3,2000,87,PC,Racing; Simulation; Sports,unknown
+icewind-dale,Icewind Dale,2000,87,PC,Strategy; RPG,Teen
+call-of-duty-united-offensive,Call of Duty: United Offensive,2004,87,PC,Shooter,Teen
+hitman-2-silent-assassin,Hitman 2: Silent Assassin,2002,87,PC,Shooter; Action,Mature
+plants-vs-zombies-goty-edition,Plants vs. Zombies GOTY Edition,2010,87,PC,Strategy,Everyone 10+
+rimworld,RimWorld,2016,87,PC,Strategy; Indie; Simulation,unknown
+dying-light-the-following-enhanced-edition,Dying Light: The Following - Enhanced Edition,2015,87,PC,Action; RPG,unknown
+kohan-immortal-sovereigns,Kohan: Immortal Sovereigns,2001,87,PC,Strategy,Teen
+world-of-warcraft-warlords-of-draenor,World of Warcraft: Warlords of Draenor,2014,87,PC,Massively Multiplayer; RPG,Teen
+company-of-heroes-opposing-fronts,Company of Heroes: Opposing Fronts,2007,87,PC,Strategy; Action,unknown
+spider-man-2000,Spider-Man (2000),2000,87,PC,Adventure; Action,Everyone 10+
+final-fantasy-xii-the-zodiac-age,Final Fantasy XII: The Zodiac Age,2017,87,PC,RPG,Teen
+tactics-ogre-let-us-cling-together,Tactics Ogre: Let Us Cling Together,1995,87,PC; PlayStation 5,Strategy,Teen
+sunless-skies,Sunless Skies,2017,87,PC,Indie; Adventure; RPG,unknown
+warhammer-40000-dawn-of-war-dark-crusade,"Warhammer 40,000: Dawn of War - Dark Crusade",2006,87,PC,Strategy,Mature
+the-swapper,The Swapper,2013,87,PC,Adventure; Action; Puzzle; Indie; Platformer,Everyone 10+
+europa-universalis-iv,Europa Universalis IV,2013,87,PC,Strategy,unknown
+oddworld-new-n-tasty,Oddworld: New 'n' Tasty,2014,87,PC,Indie; Platformer; Adventure; Action,Teen
+battlefield-bad-company-2,Battlefield: Bad Company 2,2010,87,PC,Shooter; Action,Mature
+hellblade-senuas-sacrifice-vr-edition,Hellblade: Senua's Sacrifice VR Edition,2018,87,PC,Indie; Adventure; Action,Adults Only
+psychonauts,Psychonauts,2005,87,PC,Platformer; Action,Teen
+inside,INSIDE,2016,87,PC,Adventure; Action; Puzzle; Indie; Platformer,Teen
+titanfall-2,Titanfall 2,2016,87,PC,Shooter; Action,Mature
+the-witness,The Witness,2016,87,PC,Indie; Adventure; Puzzle,unknown
+kingdom-hearts-ii-final-mix,Kingdom Hearts II Final Mix,2007,87,PC,Action; RPG,Everyone
+serious-sam-the-first-encounter,Serious Sam: The First Encounter,2001,87,PC,Shooter; Indie; Action,Adults Only
+commandos-2-men-of-courage,Commandos 2: Men of Courage,2001,87,PC,Action,unknown
+forza-motorsport-6,Forza Motorsport 6,2015,87,PC,Racing,unknown
+final-fantasy-iv,FINAL FANTASY IV: THE AFTER YEARS,2008,87,PC,Adventure; RPG,Everyone 10+
+brothers-in-arms-road-to-hill-30,Brothers in Arms: Road to Hill 30,2005,87,PC,Action,Mature
+grid,GRID (2008),2008,87,PC,Racing,unknown
+dead-space-2,Dead Space 2,2011,87,PC,Shooter; Action,Mature
+pistol-whip,Pistol Whip,2019,87,PC; PlayStation 5,Shooter; Indie; Action,unknown
+steinsgate,STEINS;GATE,2009,87,PC,Adventure; RPG,Mature
+final-fantasy-vii-remake,Final Fantasy VII,2020,87,PC; PlayStation 5,Adventure; Action; RPG,Teen
+half-life-2-episode-one,Half-Life 2: Episode One,2006,87,PC,Shooter; Action,Mature
+burnout-paradise-the-ultimate-box,Burnout Paradise: The Ultimate Box,2009,87,PC,Racing; Arcade,Everyone 10+
+monkey-island-2-se,Monkey Island 2 Special Edition: LeChuck’s Revenge,2010,87,PC,Adventure; Action,unknown
+crypt-of-the-necrodancer,Crypt of the NecroDancer,2015,87,PC,Indie; Action; RPG,Teen
+enemy-engaged-rah-66-comanche-vs-ka-52-hokum,Enemy Engaged: RAH-66 Comanche vs. KA-52 Hokum,2000,86,PC,Simulation,unknown
+everquest-the-ruins-of-kunark,EverQuest: The Ruins of Kunark,2000,86,PC,Massively Multiplayer,unknown
+microsoft-allegiance,Microsoft Allegiance,,86,PC,Strategy; Action; Simulation,unknown
+ground-control-anthology,Ground Control Anthology,2000,86,PC,Strategy,Teen
+out-of-the-park-baseball-18,Out of the Park Baseball 18,2017,86,PC,Strategy; Indie; Simulation; Sports,unknown
+f1-2016,F1 2016,2016,86,PC,Racing; Sports,Everyone
+total-annihilation,Total Annihilation,1997,86,PC,Strategy,unknown
+need-for-speed-high-stakes,Need for Speed: High Stakes,1999,86,PC,Racing; Arcade,Everyone
+il-2-sturmovik-1946,IL-2 Sturmovik: 1946,2006,86,PC,Simulation,unknown
+rayman-origins,Rayman Origins,2011,86,PC,Family; Platformer; Arcade; Action,Everyone 10+
+synth-riders,Synth Riders,2018,86,PC; PlayStation 5,Casual; Indie; Action,unknown
+monster-train,Monster Train,2020,86,PC,Card; Strategy,Teen
+bionic-commando-rearmed,Bionic Commando: Rearmed,2008,86,PC,Arcade; Adventure; Action,Adults Only
+broken-sword-the-shadow-of-the-templars,Broken Sword 1 - The Shadow of the Templars,1996,86,PC,Adventure; Puzzle,Teen
+assassins-creed-2-deluxe-edition,Assassin's Creed 2 Deluxe Edition,2010,86,PC,Adventure; Action,unknown
+tribes-ascend,Tribes: Ascend,2012,86,PC,Action,unknown
+the-sims-3,The Sims 3,2009,86,PC,Casual; Simulation,Teen
+dragon-ball-fighterz,DRAGON BALL FighterZ,2018,86,PC,Action; Fighting,unknown
+dirt-rally,DiRT Rally,2015,86,PC,Racing; Simulation; Sports,unknown
+blazblue-calamity-trigger-2,BlazBlue Calamity Trigger,2010,86,PC,Action; Fighting,Teen
+kingdom-hearts-hd-1525-remix,KINGDOM HEARTS HD 1.5 +2.5 ReMIX,2017,86,PC,Action; RPG,Everyone 10+
+overcooked-all-you-can-eat,Overcooked! All You Can Eat,2020,86,PC; PlayStation 5,Action; Casual; Strategy; Simulation; Family; Indie,Everyone
+wolfenstein-2-the-new-colossus,Wolfenstein II: The New Colossus,2017,86,PC,Shooter; Action,Mature
+battlefield-bad-company-2-vietnam-2,Battlefield: Bad Company 2 - Vietnam,2010,86,PC,Shooter; Action,unknown
+dragon-age-inquisition,Dragon Age: Inquisition,2014,86,PC,Strategy; Action; RPG,Mature
+florence,Florence,2018,86,PC,Adventure; Puzzle; Casual; Family; Indie,Teen
+inscryption,Inscryption,2021,86,PC; PlayStation 5,Indie; Strategy; Adventure,unknown
+age-of-wonders-ii-the-wizards-throne,Age of Wonders II: The Wizard's Throne,2002,86,PC,Strategy; RPG,unknown
+total-war-shogun-2-fall-of-the-samurai,Total War: Shogun 2 - Fall of the Samurai,2012,86,PC,Strategy,unknown
+nba-2k16,NBA 2K16,2015,86,PC,Sports,Everyone 10+
+bug-princess,Bug Princess,2011,86,PC,Casual; Arcade; Action,unknown
+devotion-2,Devotion,2019,86,PC,Indie; Adventure,unknown
+fifa-14,FIFA 14,2013,86,PC,Sports,Everyone
+ground-control,Ground Control,2000,86,PC,Strategy,unknown
+civilization-iv-beyond-the-sword,Civilization IV: Beyond the Sword,2007,86,PC,Strategy,unknown
+iconoclasts,Iconoclasts,2018,86,PC,Indie; Platformer; Adventure; Action,Everyone 10+
+shovel-knight-plague-of-shadows,Shovel Knight: Plague of Shadows,2015,86,PC,Arcade,unknown
+the-secret-of-monkey-island-special-edition,The Secret of Monkey Island: Special Edition,2009,86,PC,Family; Adventure,Teen
+paradigm,Paradigm,2017,86,PC,Indie; Adventure; Puzzle,unknown
+guacamelee-super-turbo-championship-edition,Guacamelee! Super Turbo Championship Edition,2014,86,PC,Platformer; Indie; Action,Everyone 10+
+until-you-fall,Until You Fall,2020,86,PC,Indie; Adventure; Action,unknown
+call-of-duty-modern-warfare-remastered,Call of Duty: Modern Warfare Remastered,2016,86,PC,Shooter; Action,Mature
+game-dev-story,Game Dev Story,2010,86,PC,Adventure; Casual; Strategy; Simulation; Indie,Everyone
+onimusha-warlords,Onimusha: Warlords,2001,86,PC,Action,Mature
+crusader-kings-iii,Crusader Kings III,2020,86,PC; PlayStation 5,Strategy; RPG; Simulation,unknown
+nierautomata,NieR:Automata,2017,86,PC,Action; RPG,Mature
+rise-of-the-tomb-raider,Rise of the Tomb Raider,2015,86,PC,Action,unknown
+slay-the-spire,Slay the Spire,2019,86,PC,Card; Strategy; Indie; RPG,unknown
+warhammer-online-age-of-reckoning,Warhammer Online: Age of Reckoning,2008,86,PC,Massively Multiplayer; RPG,Teen
+the-elder-scrolls-4-shivering-isles,The Elder Scrolls 4: Shivering Isles,2007,86,PC,RPG,Mature
+devil-may-cry-5-special-edition,Devil May Cry 5 Special Edition,2020,86,PlayStation 5,Adventure; Action,Mature
+monster-slayers,Monster Slayers,2017,86,PC,Indie; Action; RPG,unknown
+warhammer-40000-dawn-of-war-game-of-the-year-editi,"Warhammer 40,000: Dawn of War - Game of the Year Edition",2007,86,PC,Strategy,Mature
+mega-man-x-legacy-collection,Mega Man X Legacy Collection,2018,86,PC,Action,Teen
+dungeon-siege,Dungeon Siege,2002,86,PC,RPG,unknown
+teenage-mutant-ninja-turtles-shredders-revenge,Teenage Mutant Ninja Turtles: Shredder's Revenge,2022,86,PC; PlayStation 5,Adventure; Action; Fighting; Casual; Arcade; Indie,Everyone 10+
+the-lord-of-the-rings-online,The Lord of the Rings Online,2007,86,PC,Massively Multiplayer; RPG,Teen
+zero-escape-the-nonary-games,Zero Escape: The Nonary Games,2017,86,PC,Adventure,Mature
+black-mesa,Black Mesa,2020,86,PC,Shooter; Indie; Action,unknown
+call-of-duty-2,Call of Duty 2,2005,86,PC,Shooter,Teen
+marvels-spider-man-miles-morales,Marvel's Spider-Man: Miles Morales,2020,86,PC; PlayStation 5,Action,Teen
+the-room-old-sins,The Room 4: Old Sins,2018,86,PC,Adventure; Puzzle,unknown
+mass-effect-3-citadel,Mass Effect 3: Citadel,2013,86,PC,Shooter; Action; RPG,Mature
+mass-effect-2-lair-of-the-shadow-brokee,Mass Effect 2: Lair of the Shadow Broker,2010,86,PC,Shooter; Adventure; Action; RPG,Mature
+horizon-zero-dawn-2,Horizon Forbidden West,2022,86,PC; PlayStation 5,Adventure; Action; RPG,Teen
+the-witcher-enhanced-edition-directors-cut,The Witcher: Enhanced Edition Director's Cut,2008,86,PC,Action; RPG,Mature
+modern-warfare-2,Call of Duty: Modern Warfare 2,2009,86,PC,Shooter,Mature
+tunic,Tunic,2022,86,PC; PlayStation 5,Indie; Adventure; Action,Everyone
+dishonored-2,Dishonored 2,2016,86,PC,Action; RPG,Mature
+command-conquer-red-alert-2-yuris-revenge,Command & Conquer: Red Alert 2 - Yuri's Revenge,2001,86,PC,Strategy,Teen
+the-last-friend,The Last Friend,2021,86,PC,Strategy; Indie,unknown
+football-manager-2013,Football Manager 2013,2012,86,PC,Strategy; Sports,unknown
+freedom-force-vs-the-third-reich,Freedom Force vs. the Third Reich,2005,86,PC,Strategy; Action; RPG,Teen
+heroes-of-the-storm,Heroes of the Storm,2015,86,PC,Strategy; Action; RPG,Teen
+astebreed,Astebreed,2014,86,PC,Indie; Shooter; Arcade; Action,Everyone 10+
+dino-crisis-2-2011,Dino Crisis 2,2000,86,PC,Shooter; Adventure; Action,Mature
+nioh-2-the-complete-edition,Nioh 2 – The Complete Edition,2021,86,PC,Action; RPG,Mature
+total-war-warhammer-ii,Total War: WARHAMMER II,2017,86,PC,Strategy; Action,unknown
+oxygen-not-included,Oxygen Not Included,2017,86,PC,Strategy; Indie; Simulation,unknown
+plants-vs-zombies,Plants vs. Zombies,2009,86,PC,Strategy; Arcade; Puzzle,Everyone 10+
+skate,skate.,2010,86,PC,Action; Sports,Teen
+steinsgate-elite,STEINS;GATE ELITE,2018,86,PC,Adventure; RPG,Mature
+guacamelee,Guacamelee!,2013,86,PC,Arcade; Action,Everyone 10+
+bastion,Bastion,2011,86,PC,Indie; Adventure; Action; RPG,unknown
+doom-eternal,DOOM Eternal,2020,86,PC; PlayStation 5,Shooter; Action,Mature
+final-fantasy-xiv-heavensward,Final Fantasy XIV: Heavensward,2015,86,PC,Massively Multiplayer; RPG,unknown
+ender-lilies-quietus-of-the-knights,Ender Lilies: Quietus of the Knights,2021,86,PC; PlayStation 5,Platformer; Indie; Action; RPG,unknown
+allegiance,Allegiance,2000,86,PC,Simulation,unknown
+football-manager-2019,Football Manager 2019,2018,86,PC,Simulation; Sports,unknown
+unreal-tournament-2003,Unreal Tournament 2003,2002,86,PC,Shooter; Action,Mature
+the-last-express,The Last Express,1997,86,PC,Family; Adventure,Teen
+pony-island,Pony Island,2016,86,PC,Arcade; Indie; Adventure; Puzzle,unknown
+fallout-2-a-post-nuclear-role-playing-game,Fallout 2,1998,86,PC,RPG,Mature
+homeworld-remastered-collection,Homeworld Remastered Collection,2015,86,PC,Strategy; Simulation,Teen
+full-throttle,Full Throttle,1995,86,PC,Adventure,Teen
+halo-4,Halo 4,2012,86,PC,Shooter; Action,Mature
+tomb-raider-goty,Tomb Raider: Definitive Edition,2014,86,PC; PlayStation 5,Adventure; Action,Mature
+supreme-commander,Supreme Commander,2007,86,PC,Strategy,unknown
+the-binding-of-isaac-rebirth,The Binding of Isaac: Rebirth,2014,86,PC,Action; RPG,Mature
+day-of-the-tentacle-remastered,Day of the Tentacle Remastered,2016,86,PC,Family; Adventure,Teen
+baba-is-you,Baba Is You,2019,86,PC,Indie; Puzzle,unknown
+project-cars-2,Project CARS 2,2017,86,PC,Racing; Simulation; Sports,Everyone
+path-of-exile,Path of Exile,2013,86,PC,Indie; Massively Multiplayer; Action; RPG,unknown
+saints-row-iv,Saints Row IV,2013,86,PC,Adventure; Action,Mature
+gone-home,Gone Home,2013,86,PC,Indie; Adventure,Teen
+dead-space,Dead Space (2008),2008,86,PC,Shooter; Action,Mature
+total-war-warhammer,Total War: WARHAMMER,2016,86,PC,Strategy; RPG,unknown
+resident-evil-5-biohazard-5,Resident Evil 5,2009,86,PC,Shooter; Action,Mature
+returnal,Returnal,2021,86,PC; PlayStation 5,Shooter; Action,unknown
+13-sentinels-aegis-rim,13 Sentinels: Aegis Rim,2019,86,PlayStation 5,Adventure; RPG; Simulation,Teen
+xcom-enemy-within,XCOM: Enemy Within,2013,86,PC,Strategy; Action; Simulation,unknown
+tomb-raider,Tomb Raider,2013,86,PC,Action,Mature
+rocket-league,Rocket League,2015,86,PC,Racing; Indie; Sports,Everyone
+battlefield-3,Battlefield 3,2011,86,PC,Shooter; Action,Mature
+need-for-speed-hot-pursuit-2,Need For Speed: Hot Pursuit,2010,86,PC,Racing; Arcade,Everyone 10+
+god-of-blades,God of Blades,2012,85,PC,Fighting,unknown
+chime-sharp,Chime Sharp,2016,85,PC,Casual,unknown
+falcon-40,Falcon 4.0,2016,85,PC,Simulation,unknown
+nancy-drew-the-haunted-carousel,Nancy Drew: The Haunted Carousel,2003,85,PC,Adventure,Everyone
+medieval-ii-total-war-kingdoms,Medieval II: Total War Kingdoms,2007,85,PC,Strategy,unknown
+framed,Framed,2014,85,PC,Arcade; Adventure; Puzzle,unknown

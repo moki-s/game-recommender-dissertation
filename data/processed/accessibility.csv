@@ -1,0 +1,292 @@
+game_title,feature_name,category,level,source
+God of War (2018),Adjustable difficulty,Cognitive,Intermediate,Steam
+God of War (2018),Save anytime,Cognitive,Basic,Steam
+God of War (2018),Adjustable text size,Vision,Basic,Steam
+God of War (2018),Subtitle options,Vision,Basic,Steam
+God of War (2018),Colour alternatives (colourblind),Vision,Basic,Steam
+God of War (2018),Camera comfort (motion sickness),General,Basic,Steam
+God of War (2018),Custom volume controls,Hearing,Basic,Steam
+God of War (2018),Stereo sound,Hearing,Basic,Steam
+God of War (2018),Surround sound,Hearing,Basic,Steam
+God of War (2018),Narrated game menus,Vision,Advanced,Steam
+God of War (2018),Playable without quick time events,Motor,Intermediate,Steam
+God of War (2018),Keyboard only option,Motor,Intermediate,Steam
+Elden Ring,Save anytime,Cognitive,Basic,Steam
+Elden Ring,Camera comfort (motion sickness),General,Basic,Steam
+Elden Ring,Custom volume controls,Hearing,Basic,Steam
+Elden Ring,Stereo sound,Hearing,Basic,Steam
+Elden Ring,Surround sound,Hearing,Basic,Steam
+Elden Ring,Playable without quick time events,Motor,Intermediate,Steam
+It Takes Two,Stereo sound,Hearing,Basic,Steam
+It Takes Two,Surround sound,Hearing,Basic,Steam
+The Last of Us Part II,Adjustable difficulty,Cognitive,Intermediate,Steam
+The Last of Us Part II,Save anytime,Cognitive,Basic,Steam
+The Last of Us Part II,Adjustable text size,Vision,Basic,Steam
+The Last of Us Part II,Subtitle options,Vision,Basic,Steam
+The Last of Us Part II,Colour alternatives (colourblind),Vision,Basic,Steam
+The Last of Us Part II,Camera comfort (motion sickness),General,Basic,Steam
+The Last of Us Part II,Custom volume controls,Hearing,Basic,Steam
+The Last of Us Part II,Stereo sound,Hearing,Basic,Steam
+The Last of Us Part II,Surround sound,Hearing,Basic,Steam
+The Last of Us Part II,Narrated game menus,Vision,Advanced,Steam
+The Last of Us Part II,Single stick character and camera movement,Motor,Advanced,caniplaythat.com
+The Last of Us Part II,Fully remappable controls,Motor,Intermediate,caniplaythat.com
+The Last of Us Part II,Rapid button presses converted to holds,Motor,Basic,caniplaythat.com
+The Last of Us Part II,Adjustable stealth and combat difficulty,Motor,Intermediate,caniplaythat.com
+The Last of Us Part II,Reduced enemy visibility option,Motor,Unclassified,caniplaythat.com
+The Last of Us Part II,Aim-assist with large targeting diamond,Motor,Intermediate,caniplaythat.com
+The Last of Us Part II,Auto-snap aim to marked enemies,Motor,Intermediate,caniplaythat.com
+The Last of Us Part II,Anti-flanking option,Motor,Unclassified,caniplaythat.com
+The Last of Us Part II,Unbreakable grip when using human shield,Motor,Unclassified,caniplaythat.com
+The Last of Us Part II,Improved companion AI to prevent grabbing,Motor,Unclassified,caniplaythat.com
+The Last of Us Part II,Continuous melee when button held,Motor,Basic,caniplaythat.com
+The Last of Us Part II,Auto weapon switching when ammo depletes,Motor,Unclassified,caniplaythat.com
+The Last of Us Part II,Dedicated jump button,Motor,Unclassified,caniplaythat.com
+The Last of Us Part II,Edge protection to prevent unintended falls,Motor,Unclassified,caniplaythat.com
+The Last of Us Part II,Auto-mantle feature for vaulting,Motor,Unclassified,caniplaythat.com
+The Last of Us Part II,Story path directional arrow pointer,Motor,Unclassified,caniplaythat.com
+The Last of Us Part II,Environmental puzzle assistance arrow,Motor,Unclassified,caniplaythat.com
+The Last of Us Part II,Abundant checkpoints,Motor,Basic,caniplaythat.com
+The Last of Us Part II,Colourblindness settings,Vision,Basic,caniplaythat.com
+The Last of Us Part II,Individually adjustable HUD icon sizes,Vision,Basic,caniplaythat.com
+The Last of Us Part II,Three different HUD colour palettes,Vision,Basic,caniplaythat.com
+The Last of Us Part II,High-contrast display mode,Vision,Advanced,caniplaythat.com
+The Last of Us Part II,Fatal-shot targeting reticle marker,Vision,Unclassified,caniplaythat.com
+The Last of Us Part II,On-screen text-to-speech narrator,Vision,Advanced,caniplaythat.com
+The Last of Us Part II,Enemy field of view indicators,Vision,Unclassified,caniplaythat.com
+The Last of Us Part II,Bright lingering damage indicators,Vision,Unclassified,caniplaythat.com
+The Last of Us Part II,Subtitle speaker tags with customizable colours,Vision,Basic,caniplaythat.com
+The Last of Us Part II,Adjustable subtitle background opacity,Vision,Basic,caniplaythat.com
+The Last of Us Part II,Strong visual cues in hint system,Hearing,Unclassified,caniplaythat.com
+The Last of Us Part II,Directional arrow assistance,Hearing,Unclassified,caniplaythat.com
+The Last of Us Part II,Ledge proximity alert with controller rumble,Hearing,Unclassified,caniplaythat.com
+The Last of Us Part II,Visual enemy indicators for stealth and combat,Hearing,Unclassified,caniplaythat.com
+The Last of Us Part II,Bright lingering shooter markers,Hearing,Unclassified,caniplaythat.com
+The Last of Us Part II,Aim-assist diamond around attackers,Hearing,Unclassified,caniplaythat.com
+Diablo IV,Screen reader with adjustable voice and speed,Vision,Advanced,caniplaythat.com
+Diablo IV,Colourblind filters (protanopia deuteranopia tritanopia) with intensity slider,Vision,Basic,caniplaythat.com
+Diablo IV,Subtitle options (bold font dark background adjustable size and colour),Vision,Basic,caniplaythat.com
+Diablo IV,HUD font scaling slider,Vision,Basic,caniplaythat.com
+Diablo IV,Cursor size options,Vision,Basic,caniplaythat.com
+Diablo IV,Brightness slider,Vision,Basic,caniplaythat.com
+Diablo IV,Object highlighting for players NPCs and enemies,Vision,Intermediate,caniplaythat.com
+Diablo IV,Caption support,Hearing,Basic,caniplaythat.com
+Diablo IV,Text-to-speech for chat (local party trade),Hearing,Advanced,caniplaythat.com
+Diablo IV,Adjustable sound levels (soundtrack dialogue ambient master),Hearing,Basic,caniplaythat.com
+Diablo IV,Audio cues with separate sounds for item types and loot rarity,Hearing,Intermediate,caniplaythat.com
+Diablo IV,Fully customizable mouse and keyboard controls,Motor,Intermediate,caniplaythat.com
+Diablo IV,Mouse-only play,Motor,Advanced,caniplaythat.com
+Diablo IV,Controller support with remappable buttons and swappable sticks,Motor,Intermediate,caniplaythat.com
+Diablo IV,Toggle or hold button options,Motor,Basic,caniplaythat.com
+Diablo IV,Borderless windowed mode (cursor not locked),Motor,Unclassified,caniplaythat.com
+Diablo IV,Screen shake toggle,General,Basic,caniplaythat.com
+Diablo IV,Strobing effects reduction,General,Basic,caniplaythat.com
+Diablo IV,Adjustable tutorial guidance (more or less),Cognitive,Intermediate,caniplaythat.com
+Diablo IV,Five difficulty settings (world tiers),Cognitive,Intermediate,caniplaythat.com
+Diablo IV,Hardcore permadeath mode,Cognitive,Unclassified,caniplaythat.com
+Baldur's Gate III,Colourblind mode (protanopia deuteranopia tritanopia),Vision,Basic,caniplaythat.com
+Baldur's Gate III,Alchemy panel slot customization,Cognitive,Unclassified,caniplaythat.com
+Baldur's Gate III,Enhanced unique map icons,Vision,Unclassified,caniplaythat.com
+Baldur's Gate III,Skill proficiency star indicators and improved tooltips,Cognitive,Unclassified,caniplaythat.com
+Baldur's Gate III,Additional autosaves,Cognitive,Basic,caniplaythat.com
+Baldur's Gate III,Controller end turn hold instead of tap option,Motor,Basic,caniplaythat.com
+Baldur's Gate III,Improved quest context in journal,Cognitive,Unclassified,caniplaythat.com
+Baldur's Gate III,Combat log organised under separate headings,Cognitive,Unclassified,caniplaythat.com
+Celeste,Play with multiple buttons and single stick,Motor,Advanced,familygamingdatabase.com
+Celeste,Play with keyboard alone,Motor,Advanced,familygamingdatabase.com
+Celeste,Remap buttons,Motor,Intermediate,familygamingdatabase.com
+Celeste,Swap sticks,Motor,Intermediate,familygamingdatabase.com
+Celeste,Remap sticks to buttons,Motor,Intermediate,familygamingdatabase.com
+Celeste,Remap mouse and keyboard,Motor,Intermediate,familygamingdatabase.com
+Celeste,Remap one action to multiple buttons,Motor,Intermediate,familygamingdatabase.com
+Celeste,Remap game menu access,Motor,Intermediate,familygamingdatabase.com
+Celeste,Invert X/Y axis,Motor,Basic,familygamingdatabase.com
+Celeste,Holding down buttons optional (toggle),Motor,Basic,familygamingdatabase.com
+Celeste,Vibration optional,Motor,Basic,familygamingdatabase.com
+Celeste,Assistance with controls (auto aim steer jump),Motor,Intermediate,familygamingdatabase.com
+Celeste,Customise difficulty,Cognitive,Intermediate,familygamingdatabase.com
+Celeste,Difficulty adjustable anytime,Cognitive,Intermediate,familygamingdatabase.com
+Celeste,Tutorials,Cognitive,Basic,familygamingdatabase.com
+Celeste,View control mapping during play,Cognitive,Basic,familygamingdatabase.com
+Celeste,Low pressure (no time limits),Cognitive,Intermediate,familygamingdatabase.com
+Celeste,Adjust game speed or rewind,Cognitive,Advanced,familygamingdatabase.com
+Celeste,Guaranteed progress with god mode,Cognitive,Advanced,familygamingdatabase.com
+Celeste,Save progress anytime,Cognitive,Basic,familygamingdatabase.com
+Celeste,Minimal reading required,Cognitive,Basic,familygamingdatabase.com
+Celeste,Menus don't wrap,Cognitive,Unclassified,familygamingdatabase.com
+Celeste,Large clear text,Vision,Basic,familygamingdatabase.com
+Celeste,High contrast text,Vision,Basic,familygamingdatabase.com
+Celeste,Large clear navigation and maps,Vision,Basic,familygamingdatabase.com
+Celeste,Menu audio cues,Vision,Intermediate,familygamingdatabase.com
+Celeste,Medium contrast visuals,Vision,Basic,familygamingdatabase.com
+Celeste,Outline interactive elements,Vision,Intermediate,familygamingdatabase.com
+Celeste,Colourblind friendly mode,Vision,Basic,familygamingdatabase.com
+Celeste,All speech subtitled,Hearing,Basic,familygamingdatabase.com
+Celeste,Caption speaker indicator,Hearing,Basic,familygamingdatabase.com
+Celeste,Adjustable audio balance (music and SFX separate),Hearing,Basic,familygamingdatabase.com
+Celeste,No flashing strobe effects or can disable,General,Basic,familygamingdatabase.com
+Celeste,No screen shake or can disable,General,Basic,familygamingdatabase.com
+Forza Horizon 4,Language select independent of system region,General,Basic,support.forza.net
+Forza Horizon 4,Difficulty and driving assists,Cognitive,Intermediate,support.forza.net
+Forza Horizon 4,Camera FOV setting (PC),Cognitive,Basic,support.forza.net
+Forza Horizon 4,Colourblind UI colour settings (protanopia deuteranopia tritanopia),Vision,Basic,support.forza.net
+Forza Horizon 4,High contrast UI setting,Vision,Advanced,support.forza.net
+Forza Horizon 4,Full controller remapping,Motor,Intermediate,support.forza.net
+Forza Horizon 4,Copy default control layout to custom profile,Motor,Basic,support.forza.net
+Forza Horizon 4,Up to five custom controller profiles,Motor,Basic,support.forza.net
+Forza Horizon 4,Subtitling for all pertinent dialogue,Hearing,Basic,support.forza.net
+Forza Horizon 4,Subtitle location adjustment,Vision,Basic,support.forza.net
+Forza Horizon 4,Subtitle font size adjustment,Vision,Basic,support.forza.net
+Forza Horizon 4,Subtitle background opacity adjustment,Vision,Basic,support.forza.net
+Forza Horizon 4,Subtitle option preview,Vision,Unclassified,support.forza.net
+Forza Horizon 4,Quick chat with D-pad,Speech,Intermediate,support.forza.net
+Forza Horizon 4,Full multi-USB device support,Motor,Intermediate,support.forza.net
+Half-Life: Alyx,Four difficulty settings,Cognitive,Intermediate,gamespot.com
+Half-Life: Alyx,Right and left-handed weapon hand modes,Motor,Basic,gamespot.com
+Half-Life: Alyx,Multiple movement types to reduce motion sickness (blink shift continuous),General,Advanced,gamespot.com
+Half-Life: Alyx,Snap turn with adjustable angle,General,Intermediate,gamespot.com
+Half-Life: Alyx,Continuous turn with adjustable speed,General,Intermediate,gamespot.com
+Half-Life: Alyx,Single controller one-handed mode,Motor,Advanced,gamespot.com
+Half-Life: Alyx,Height adjust mode for crouch and stand,Motor,Advanced,gamespot.com
+Half-Life: Alyx,Seated mode play,Motor,Advanced,gamespot.com
+Ori and the Will of the Wisps,Fully subtitled narration,Hearing,Basic,caniplaythat.com
+Ori and the Will of the Wisps,Large subtitle text,Vision,Basic,caniplaythat.com
+Resident Evil 2,Multiple difficulty settings including Hardcore,Cognitive,Intermediate,the-art-of-autism.com
+Red Dead Redemption 2,Colourblind support with five settings,Vision,Basic,caniplaythat.com
+Red Dead Redemption 2,Customisable subtitles,Hearing,Basic,caniplaythat.com
+Red Dead Redemption 2,Subtitle background box,Vision,Basic,caniplaythat.com
+Red Dead Redemption 2,Generous aim-assist,Motor,Intermediate,caniplaythat.com
+Microsoft Flight Simulator 2020,Text size adjustment slider,Vision,Basic,caniplaythat.com
+Microsoft Flight Simulator 2020,Interface size adjustment slider,Vision,Basic,caniplaythat.com
+Microsoft Flight Simulator 2020,Background opacity adjustment for UI,Vision,Basic,caniplaythat.com
+Microsoft Flight Simulator 2020,Colourblind options (multiple modes),Vision,Basic,caniplaythat.com
+Microsoft Flight Simulator 2020,Menu animations toggle,Vision,Unclassified,caniplaythat.com
+Microsoft Flight Simulator 2020,Tooltips toggle,Vision,Unclassified,caniplaythat.com
+Microsoft Flight Simulator 2020,Movable and resizable on-screen windows,Vision,Intermediate,caniplaythat.com
+Microsoft Flight Simulator 2020,Quick menu for interface access,Vision,Unclassified,caniplaythat.com
+Microsoft Flight Simulator 2020,Instrument hover labels showing function names,Vision,Unclassified,caniplaythat.com
+Microsoft Flight Simulator 2020,Visual landing procedure guides,Vision,Unclassified,caniplaythat.com
+Microsoft Flight Simulator 2020,Focus option to zoom and lock view,Vision,Intermediate,caniplaythat.com
+Microsoft Flight Simulator 2020,Adjustable cockpit camera views,Vision,Basic,caniplaythat.com
+Microsoft Flight Simulator 2020,Custom camera position saving and switching,Vision,Unclassified,caniplaythat.com
+Microsoft Flight Simulator 2020,Third-person flight view option,Vision,Unclassified,caniplaythat.com
+Microsoft Flight Simulator 2020,Blue glow instrument highlighting during training,Vision,Unclassified,caniplaythat.com
+Microsoft Flight Simulator 2020,Subtitles,Hearing,Basic,caniplaythat.com
+Microsoft Flight Simulator 2020,Real-time transcript for radio transmissions,Hearing,Intermediate,caniplaythat.com
+Microsoft Flight Simulator 2020,Individual sound sliders (engines environment UI voice),Hearing,Basic,caniplaythat.com
+Microsoft Flight Simulator 2020,Text-to-speech quality adjustment (offline or azure),Hearing,Advanced,caniplaythat.com
+Microsoft Flight Simulator 2020,Controller vibration indicating flight issues,Hearing,Intermediate,caniplaythat.com
+Microsoft Flight Simulator 2020,Three assistance presets (all assists middle-ground true to life),Motor,Intermediate,caniplaythat.com
+Microsoft Flight Simulator 2020,Manual toggle for individual assistance features,Motor,Intermediate,caniplaythat.com
+Microsoft Flight Simulator 2020,Co-pilot automation (comms checks full control),Motor,Advanced,caniplaythat.com
+Microsoft Flight Simulator 2020,Customizable control remapping,Motor,Intermediate,caniplaythat.com
+Microsoft Flight Simulator 2020,Controller support,Motor,Basic,caniplaythat.com
+Microsoft Flight Simulator 2020,Keyboard shortcuts for frequent actions,Motor,Basic,caniplaythat.com
+Microsoft Flight Simulator 2020,Mouse-based cockpit interaction,Motor,Basic,caniplaythat.com
+Microsoft Flight Simulator 2020,Pre-flight cinematics auto-skip option,Cognitive,Basic,caniplaythat.com
+Microsoft Flight Simulator 2020,Instructions and notifications in all assists mode,Cognitive,Basic,caniplaythat.com
+Microsoft Flight Simulator 2020,Airport and city navigation markers,Cognitive,Basic,caniplaythat.com
+Microsoft Flight Simulator 2020,Difficulty and assistance customization anytime,Cognitive,Intermediate,caniplaythat.com
+Disco Elysium: Final Cut,Text size options (three sizes),Vision,Basic,caniplaythat.com
+Disco Elysium: Final Cut,Background text contrast for legibility,Vision,Basic,caniplaythat.com
+Sekiro: Shadows Die Twice,Subtitles on or off,Hearing,Basic,caniplaythat.com
+Sekiro: Shadows Die Twice,Visual awareness indicators,Hearing,Intermediate,caniplaythat.com
+Sekiro: Shadows Die Twice,Enemy health bar indicator,Hearing,Unclassified,caniplaythat.com
+Sekiro: Shadows Die Twice,Posture indicator,Hearing,Unclassified,caniplaythat.com
+Sekiro: Shadows Die Twice,Death blow visual indicator,Hearing,Unclassified,caniplaythat.com
+Sekiro: Shadows Die Twice,Volume sliders,Hearing,Basic,caniplaythat.com
+Persona 5 Royal,Brightness adjustment,Vision,Basic,caniplaythat.com
+Persona 5 Royal,Third Eye mechanic to highlight hidden objects,Vision,Unclassified,caniplaythat.com
+Persona 5 Royal,Subtitles with large font,Hearing,Basic,caniplaythat.com
+Persona 5 Royal,Optional anime cutscene subtitles,Hearing,Basic,caniplaythat.com
+Persona 5 Royal,Camera sensitivity adjustment,Motor,Basic,caniplaythat.com
+Persona 5 Royal,Cancel button auto-centers camera,Motor,Unclassified,caniplaythat.com
+Persona 5 Royal,Difficulty settings from safety to hard,Cognitive,Intermediate,caniplaythat.com
+Demon's Souls (2020),Subtitles for cutscenes and dialogue,Hearing,Basic,caniplaythat.com
+Demon's Souls (2020),DualSense speaker directional audio feedback,Hearing,Intermediate,caniplaythat.com
+Demon's Souls (2020),Colourblind options for menus,Vision,Basic,caniplaythat.com
+Demon's Souls (2020),Contrast slider,Vision,Basic,caniplaythat.com
+Demon's Souls (2020),Improved shadow quality for enemy visibility,Vision,Unclassified,caniplaythat.com
+Demon's Souls (2020),Enhanced lighting in dark areas,Vision,Unclassified,caniplaythat.com
+Demon's Souls (2020),Smoother less jerky animations,Vision,Unclassified,caniplaythat.com
+Demon's Souls (2020),Tutorial videos showing combat timing cues,Motor,Intermediate,caniplaythat.com
+Demon's Souls (2020),Context-sensitive video instruction,Motor,Unclassified,caniplaythat.com
+Demon's Souls (2020),Haptic feedback on left and right controller,Hearing,Intermediate,caniplaythat.com
+Demon's Souls (2020),Directional audio cues for enemy location,Hearing,Intermediate,caniplaythat.com
+Tetris Effect: Connected,Simple controls (d-pad and two buttons),Motor,Basic,caniplaythat.com
+Tetris Effect: Connected,Block holding option,Motor,Unclassified,caniplaythat.com
+Tetris Effect: Connected,Fast drops option,Motor,Unclassified,caniplaythat.com
+Tetris Effect: Connected,Sharp contrast between background and foreground,Vision,Basic,caniplaythat.com
+Tetris Effect: Connected,Distinct visual stage differentiation,Vision,Unclassified,caniplaythat.com
+Tetris Effect: Connected,Playable without music or sound effects,Hearing,Basic,caniplaythat.com
+Sea of Stars,Brightness slider,Vision,Basic,caniplaythat.com
+Sea of Stars,Windowed mode,Vision,Unclassified,caniplaythat.com
+Sea of Stars,Enemy icons showing weaknesses and turn info,Vision,Unclassified,caniplaythat.com
+Sea of Stars,Sequent Flare Relic visual flare for timed hits,Vision,Unclassified,caniplaythat.com
+Sea of Stars,Amulet of Storytelling visual HP and healing feedback,Vision,Unclassified,caniplaythat.com
+Sea of Stars,No audible dialogue required,Hearing,Basic,caniplaythat.com
+Sea of Stars,Customizable sound levels (UI SFX music master),Hearing,Basic,caniplaythat.com
+Sea of Stars,Sound effects not required to complete game,Hearing,Basic,caniplaythat.com
+Sea of Stars,Remappable keyboard key bindings,Motor,Intermediate,caniplaythat.com
+Sea of Stars,Controller support,Motor,Basic,caniplaythat.com
+Sea of Stars,Turn-based combat with no time pressure,Motor,Basic,caniplaythat.com
+Sea of Stars,Sixth Sense Relic automatic blocking,Motor,Advanced,caniplaythat.com
+Sea of Stars,Extensive tutorial section,Cognitive,Basic,caniplaythat.com
+Sea of Stars,How to Play tab accessible anytime,Cognitive,Basic,caniplaythat.com
+Sea of Stars,Relics with detailed descriptions,Cognitive,Unclassified,caniplaythat.com
+Sea of Stars,Brief tutorials for special moves,Cognitive,Basic,caniplaythat.com
+Into the Breach,Play with multiple buttons and single stick,Motor,Advanced,familygamingdatabase.com
+Into the Breach,Play with mouse and keyboard,Motor,Basic,familygamingdatabase.com
+Into the Breach,Select difficulty from presets,Cognitive,Intermediate,familygamingdatabase.com
+Into the Breach,Tutorials,Cognitive,Basic,familygamingdatabase.com
+Into the Breach,Practice area,Cognitive,Basic,familygamingdatabase.com
+Into the Breach,Reaction-time not critical,Cognitive,Intermediate,familygamingdatabase.com
+Into the Breach,Minimal reading required,Cognitive,Basic,familygamingdatabase.com
+Into the Breach,Large clear subtitles,Vision,Basic,familygamingdatabase.com
+Into the Breach,Fully subtitled or no speech,Hearing,Basic,familygamingdatabase.com
+Into the Breach,Large clear navigation,Vision,Basic,familygamingdatabase.com
+Into the Breach,Clear mission objectives,Cognitive,Basic,familygamingdatabase.com
+Into the Breach,Heads up display navigation,Vision,Unclassified,familygamingdatabase.com
+Into the Breach,Medium contrast visuals,Vision,Basic,familygamingdatabase.com
+Into the Breach,Motion sickness friendly,General,Basic,familygamingdatabase.com
+Into the Breach,Colour adjustments,Vision,Basic,familygamingdatabase.com
+Into the Breach,Adjustable audio levels,Hearing,Basic,familygamingdatabase.com
+Into the Breach,Play without hearing,Hearing,Basic,familygamingdatabase.com
+A Monster's Expedition,Play with multiple buttons and single stick,Motor,Advanced,familygamingdatabase.com
+A Monster's Expedition,Play with keyboard alone,Motor,Advanced,familygamingdatabase.com
+A Monster's Expedition,Play with one targeted motion,Motor,Advanced,familygamingdatabase.com
+A Monster's Expedition,Remap buttons,Motor,Intermediate,familygamingdatabase.com
+A Monster's Expedition,Remap game menu access,Motor,Intermediate,familygamingdatabase.com
+A Monster's Expedition,No simultaneous buttons required,Motor,Basic,familygamingdatabase.com
+A Monster's Expedition,Vibration optional,Motor,Basic,familygamingdatabase.com
+A Monster's Expedition,Informative vibration,Motor,Unclassified,familygamingdatabase.com
+A Monster's Expedition,Tutorials,Cognitive,Basic,familygamingdatabase.com
+A Monster's Expedition,View control mapping,Cognitive,Basic,familygamingdatabase.com
+A Monster's Expedition,Reaction-time not critical,Cognitive,Intermediate,familygamingdatabase.com
+A Monster's Expedition,Low pressure,Cognitive,Intermediate,familygamingdatabase.com
+A Monster's Expedition,Adjust game speed,Cognitive,Advanced,familygamingdatabase.com
+A Monster's Expedition,No jump scares,Cognitive,Basic,familygamingdatabase.com
+A Monster's Expedition,Frequent checkpoints,Cognitive,Basic,familygamingdatabase.com
+A Monster's Expedition,Assisted progress with hints,Cognitive,Intermediate,familygamingdatabase.com
+A Monster's Expedition,Save progress anytime,Cognitive,Basic,familygamingdatabase.com
+A Monster's Expedition,Moderate reading required,Cognitive,Unclassified,familygamingdatabase.com
+A Monster's Expedition,Digital menu navigation,Cognitive,Unclassified,familygamingdatabase.com
+A Monster's Expedition,Large clear text,Vision,Basic,familygamingdatabase.com
+A Monster's Expedition,Visual directional cues,Vision,Intermediate,familygamingdatabase.com
+A Monster's Expedition,Heads up display game map,Vision,Unclassified,familygamingdatabase.com
+A Monster's Expedition,Medium contrast visuals,Vision,Basic,familygamingdatabase.com
+A Monster's Expedition,No busy backgrounds,Vision,Basic,familygamingdatabase.com
+A Monster's Expedition,Audio cues for visual events,Vision,Intermediate,familygamingdatabase.com
+A Monster's Expedition,No flashing effects,General,Basic,familygamingdatabase.com
+A Monster's Expedition,No screen shake,General,Basic,familygamingdatabase.com
+A Monster's Expedition,Motion sickness friendly,General,Basic,familygamingdatabase.com
+A Monster's Expedition,Adjustable audio levels,Hearing,Basic,familygamingdatabase.com
+A Monster's Expedition,Play without hearing,Hearing,Basic,familygamingdatabase.com
+NieR:Automata Game of the YoRHa Edition,Subtitles with large text and dark background,Hearing,Basic,caniplaythat.com
+NieR:Automata Game of the YoRHa Edition,Dialogue choice text on dark background,Vision,Basic,caniplaythat.com
+NieR:Automata Game of the YoRHa Edition,Clear on-screen instructions,Vision,Unclassified,caniplaythat.com
+NieR:Automata Game of the YoRHa Edition,Visual cues and markers for items and NPCs,Vision,Intermediate,caniplaythat.com
+NieR:Automata Game of the YoRHa Edition,Map indicators for quests,Vision,Unclassified,caniplaythat.com
+NieR:Automata Game of the YoRHa Edition,Visual distinction of organic vs machine enemies,Vision,Unclassified,caniplaythat.com
+NieR:Automata Game of the YoRHa Edition,Auto-targeting on easy mode,Motor,Intermediate,caniplaythat.com
+NieR:Automata Game of the YoRHa Edition,Sound options menu,Hearing,Basic,caniplaythat.com

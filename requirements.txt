@@ -1,0 +1,7 @@
+requests
+neo4j
+neo4j-graphrag
+sentence-transformers
+fastapi
+uvicorn
+python-dotenv
