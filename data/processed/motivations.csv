@@ -1,0 +1,33 @@
+motivation,component,satisfied_by_type,satisfied_by_value
+advancement,achievement,genre,RPG
+advancement,achievement,genre,Strategy
+advancement,achievement,genre,Massively Multiplayer
+mechanics,achievement,genre,Strategy
+mechanics,achievement,genre,Simulation
+mechanics,achievement,theme,"4X (explore, expand, exploit, and exterminate)"
+mechanics,achievement,genre,Card
+competition,achievement,genre,Fighting
+competition,achievement,genre,Sports
+competition,achievement,genre,Racing
+competition,achievement,game_mode,Multiplayer
+competition,achievement,game_mode,Battle Royale
+socializing,social,genre,Massively Multiplayer
+socializing,social,game_mode,Massively Multiplayer Online (MMO)
+teamwork,social,game_mode,Co-operative
+teamwork,social,game_mode,Massively Multiplayer Online (MMO)
+discovery,immersion,genre,Adventure
+discovery,immersion,theme,Open world
+discovery,immersion,theme,Sandbox
+role-playing,immersion,genre,RPG
+role-playing,immersion,theme,Fantasy
+role-playing,immersion,theme,Drama
+escapism,immersion,genre,Casual
+escapism,immersion,genre,Puzzle
+escapism,immersion,genre,Simulation
+escapism,immersion,genre,Arcade
+relationship,social,game_mode,Co-operative
+relationship,social,game_mode,Massively Multiplayer Online (MMO)
+relationship,social,genre,Massively Multiplayer
+customization,immersion,genre,RPG
+customization,immersion,genre,Simulation
+customization,immersion,theme,Sandbox

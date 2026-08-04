@@ -4,7 +4,7 @@ __pycache__/
 *.pyc
 .python-version
 data/raw/
-CLAUDE.md
+PROJECT_CONTEXT.md
 dissertation_docs/
 report/
 
