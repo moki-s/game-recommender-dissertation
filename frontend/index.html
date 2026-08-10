@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Game Recommender</title>
+  <style>
+    .page { max-width: 760px; margin: 0 auto; padding: 24px; font-family: system-ui, Arial, sans-serif; line-height: 1.5; color: #1a1a1a; }
+    h1 { margin-bottom: 4px; }
+    .intro { color: #555; margin-top: 0; }
+    section { margin: 28px 0; }
+    h2 { font-size: 1.1rem; }
+    .optional { font-weight: normal; color: #888; font-size: 0.9rem; }
+    .note { color: #555; font-size: 0.9rem; }
+
+    /* buttons for platform and options used LLM help*/
+    button { cursor: pointer; font-size: 1rem; padding: 8px 14px; border: 1px solid #bbb; background: #fff; border-radius: 6px; margin: 4px 6px 4px 0; }
+    button:hover { background: #f2f2f2; }
+    .selected { background: #1a5cff; color: #fff; border-color: #1a5cff; }
+    .selected:hover { background: #1a5cff; }
+
+    #go { background: #128a3a; color: #fff; border-color: #128a3a; font-size: 1.05rem; padding: 10px 18px; }
+    #go:hover { background: #0f7531; }
+
+    .question { margin: 16px 0; }
+    .question p { font-weight: 600; margin-bottom: 6px; }
+
+    #accessibility label { display: inline-block; margin-right: 14px; }
+
+    #age { font-size: 1rem; padding: 6px 8px; width: 100px; }
+
+    #vibe { font-size: 1rem; padding: 8px; width: 100%; box-sizing: border-box; border: 1px solid #bbb; border-radius: 6px; }
+
+     result cards */
+    .card { border: 1px solid #ddd; border-radius: 8px; padding: 14px 16px; margin: 12px 0; background: #fafafa; }
+    .card h3 { margin: 0 0 4px 0; }
+    .card .meta { color: #666; font-size: 0.9rem; }
+    .card .why { margin: 8px 0; font-style: italic; }
+    .card .facts { font-size: 0.9rem; color: #333; }
+    .played-btn { font-size: 0.85rem; padding: 4px 10px; margin-top: 8px; }
+    .error { color: #b00; }
+  </style>
+</head>
+<body>
+  <!-- simple page build done here - used LLM help as i am new to this -->
+  <div class="page">
+    <h1>Game Recommender</h1>
+    <p class="intro">Answer a few questions and get acclaimed PC / PS5 games matched to how you like to play.</p>
+
+    <section>
+      <h2>1. What do you play on?</h2>
+      <div id="platforms">
+        <button class="platform-btn" data-platform="PC">PC</button>
+        <button class="platform-btn" data-platform="PlayStation 5">PlayStation 5</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>2. How do you like to play?</h2>
+      <div id="quiz">loading questions...</div>
+    </section>
+
+    <section>
+      <h2>3. Accessibility needs <span class="optional">(optional)</span></h2>
+      <p class="note">
+        Tick anything that matters to you. This <strong>boosts</strong> games that support these needs -
+        it does not hide other games, because our accessibility data currently covers a subset of games.
+      </p>
+      <div id="accessibility">
+        <label><input type="checkbox" value="Vision"> Vision</label>
+        <label><input type="checkbox" value="Hearing"> Hearing</label>
+        <label><input type="checkbox" value="Motor"> Motor</label>
+        <label><input type="checkbox" value="Cognitive"> Cognitive</label>
+        <label><input type="checkbox" value="Speech"> Speech</label>
+        <label><input type="checkbox" value="General"> General</label>
+      </div>
+    </section>
+
+    <section>
+      <h2>4. Age limit <span class="optional">(optional)</span></h2>
+      <p class="note">Only show games rated at or below this age (PEGI). Leave blank for no limit.</p>
+      <input type="number" id="age" min="3" max="18" placeholder="e.g. 12">
+    </section>
+
+    <section>
+      <h2>5. Or describe what you're in the mood for <span class="optional">(optional)</span></h2>
+      <input type="text" id="vibe" placeholder="e.g. a relaxing game about building and exploring">
+      <p class="note">
+        Describe the <strong>feel</strong> you want - e.g. "a relaxing game about building and exploring" -
+        rather than naming a specific game, as this matches the mood of game descriptions.
+      </p>
+    </section>
+
+    <section>
+      <button id="go">Get recommendations</button>
+    </section>
+
+    <section id="results"></section>
+  </div>
+
+  <script>
+    let platform = null;
+    let questions = [];
+    let answers = [];
+    let playedTitles = [];
+
+    async function loadQuiz() {
+      const response = await fetch("/quiz");
+      const data = await response.json();
+      questions = data.questions;
+      answers = questions.map(() => null);
+      renderQuiz();
+    }
+
+    // build the quiz html from the questions data - used LLM help as it is javascript
+    function renderQuiz() {
+      const quizDiv = document.getElementById("quiz");
+      quizDiv.innerHTML = "";
+      questions.forEach((question, qIndex) => {
+        const block = document.createElement("div");
+        block.className = "question";
+        block.innerHTML = "<p>" + question.prompt + "</p>";
+        question.options.forEach((option, optIndex) => {
+          const btn = document.createElement("button");
+          btn.textContent = option.text;
+          btn.onclick = () => selectOption(qIndex, optIndex, block);
+          block.appendChild(btn);
+        });
+        quizDiv.appendChild(block);
+      });
+    }
+
+    function selectOption(qIndex, optIndex, block) {
+      answers[qIndex] = optIndex;
+      const buttons = block.querySelectorAll("button");
+      buttons.forEach((b, i) => b.classList.toggle("selected", i === optIndex));
+    }
+
+    document.querySelectorAll(".platform-btn").forEach(btn => {
+      btn.onclick = () => {
+        platform = btn.dataset.platform;
+        document.querySelectorAll(".platform-btn").forEach(b => b.classList.toggle("selected", b === btn));
+      };
+    });
+
+    function getAccessibility() {
+      const boxes = document.querySelectorAll("#accessibility input:checked");
+      return Array.from(boxes).map(b => b.value);
+    }
+
+    async function getRecommendations() {
+      const results = document.getElementById("results");
+
+      if (!platform) { results.innerHTML = "<p class='error'>please choose a platform first.</p>"; return; }
+      if (answers.includes(null)) { results.innerHTML = "<p class='error'>please answer every question.</p>"; return; }
+
+      const ageValue = document.getElementById("age").value;
+      const maxAge = ageValue === "" ? null : Number(ageValue);
+
+      const body = {
+        platform: platform,
+        answers: answers,
+        required_accessibility: getAccessibility(),
+        max_age_rating: maxAge,
+        played_titles: playedTitles,
+      };
+
+      // this is to read the optional vibe text box and only add if our user types something - used LLM help
+      const vibeText = document.getElementById("vibe").value.trim();
+      if (vibeText) { body.vibe_text = vibeText; }
+
+      results.innerHTML = "getting recommendations...";
+
+      const response = await fetch("/recommend", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      const data = await response.json();
+      renderResults(data.recommendations);
+    }
+
+    // build a card for each recommended game
+    function renderResults(recommendations) {
+      const results = document.getElementById("results");
+      if (!recommendations || recommendations.length === 0) {
+        results.innerHTML = "<p>no games matched. try changing your answers or platform.</p>";
+        return;
+      }
+
+      results.innerHTML = "<h2>Recommended games</h2>";
+      recommendations.forEach(game => {
+        const card = document.createElement("div");
+        card.className = "card";
+
+        const why = game.explanation ? game.explanation : "";
+        const motivations = (game.matched_motivations || []).join(", ") || "none";
+        const award = (game.won_awards && game.won_awards.length > 0) ? game.won_awards[0] : "none";
+
+        card.innerHTML =
+          "<h3>" + game.title + "</h3>" +
+          "<div class='meta'>metacritic: " + game.metacritic + " &nbsp;|&nbsp; our score: " + game.score + "</div>" +
+          "<p class='why'>" + why + "</p>" +
+          "<div class='facts'>" +
+            "motivations matched: " + motivations + "<br>" +
+            "award: " + award + "<br>" +
+            "accessibility features matched: " + game.accessibility_matches +
+          "</div>";
+
+        const playedBtn = document.createElement("button");
+        playedBtn.className = "played-btn";
+        playedBtn.textContent = "i've played this";
+        playedBtn.onclick = () => {
+          playedTitles.push(game.title);
+          getRecommendations();
+        };
+        card.appendChild(playedBtn);
+
+        results.appendChild(card);
+      });
+    }
+
+    // this has now wired up the go button and load the quiz when the page opens
+    document.getElementById("go").onclick = getRecommendations;
+    loadQuiz();
+  </script>
+</body>
+</html>

@@ -1,19 +1,3 @@
-"""turn a recommendation into a natural-language 'because' using a local llm via ollama.
-
-THE KEY DESIGN POINT (this is the heart of the research contribution):
-the graph has ALREADY decided which games to recommend and in what order (in queries.py, using
-deterministic scoring). this file does NOT rank, choose or reorder anything. the llm is handed ONLY
-the facts the graph produced for one game - its title, the motivations it matched, any award it won,
-and how many of the player's accessibility needs it supports - and is asked to phrase those facts
-into one sentence. because the model never sees the catalogue and is given nothing but these facts,
-it physically cannot invent a game, re-rank results, or make up a reason. it can only rephrase what
-it was given.
-
-this is the faithfulness principle from Balloccu et al. / PEARLM [9]: the explanation is constrained
-to the facts the deterministic system already committed to, so it cannot hallucinate a recommendation.
-(viva line: "the graph decides what to recommend and in what order; the language model only phrases
-the explanation from facts it is given, so it cannot hallucinate a recommendation.")
-"""
 import requests
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
@@ -69,7 +53,8 @@ def explain_recommendation(game_result):
         # ask the local ollama model to phrase the facts - used LLM to optimize
         response = requests.post(
             OLLAMA_URL,
-            json={"model": OLLAMA_MODEL, "prompt": prompt, "stream": False},
+            json={"model": OLLAMA_MODEL, "prompt": prompt, "stream": False,
+                  "options": {"temperature": 0, "seed": 42}},
             timeout=60,
         )
         response.raise_for_status()

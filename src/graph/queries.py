@@ -26,8 +26,10 @@ OPTIONAL MATCH (g)-[:NOMINATED_FOR]->(nom:Award)
 WITH g, matched_motivations, won_awards, count(DISTINCT nom) AS nominated_count
 
 WITH g, matched_motivations, won_awards, nominated_count,
-     size([feature IN $required_accessibility WHERE
-           EXISTS { (g)-[:SUPPORTS]->(:AccessibilityFeature {name: feature}) }]) AS accessibility_matches
+     // a requested need can be a specific feature name OR a whole category like "Vision" (from the ui)
+     size([need IN $required_accessibility WHERE
+           EXISTS { MATCH (g)-[:SUPPORTS]->(f:AccessibilityFeature)
+                    WHERE f.name = need OR f.category = need }]) AS accessibility_matches
 
 WITH g, matched_motivations, won_awards, accessibility_matches,
      reduce(total = 0.0, name IN matched_motivations | total + $motivation_weights[name]) AS motivation_score,
