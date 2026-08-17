@@ -48,7 +48,7 @@ def recommend(request: dict):
     max_age_rating = request.get("max_age_rating")
     played_titles = request.get("played_titles", [])
     vibe_text = request.get("vibe_text")
-    vibe_weight = 3.0 if vibe_text else 0.0
+    vibe_weight = 5.0 if vibe_text else 0.0
 
     motivation_weights = score_answers(answers)
 
@@ -68,6 +68,4 @@ def recommend(request: dict):
 
     return {"weights": motivation_weights, "recommendations": results}
 
-
-# this is to serve the frontend folder's other files as static assets under /static
 app.mount("/static", StaticFiles(directory=FRONTEND_DIR), name="static")

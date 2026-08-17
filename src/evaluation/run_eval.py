@@ -11,7 +11,7 @@ from personas import PERSONAS
 
 OUTPUT_CSV = "data/processed/eval_results.csv"
 TOP_N = 5
-VIBE_WEIGHT = 3.0
+VIBE_WEIGHT = 5.0
 
 
 def persona_to_text(persona):

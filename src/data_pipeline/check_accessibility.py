@@ -1,5 +1,3 @@
-"""check accessibility.csv is clean before we load it into neo4j."""
-
 import csv
 
 from collections import Counter

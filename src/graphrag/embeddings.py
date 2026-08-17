@@ -1,15 +1,3 @@
-"""add a description embedding to every game node, so we can search games by 'vibe'.
-
-what is an embedding? it's a list of numbers (here 384 of them) that captures the MEANING of a
-piece of text. the model reads a game's summary and turns it into this list of numbers, in such a
-way that summaries about similar things end up with similar numbers. so two games that "feel" alike -
-even if their genres are different - end up with embeddings that sit close together. that lets us
-later find games by overall vibe, not just by exact genre/theme matching, which is the second
-retrieval path that makes this a true hybrid (graph + vector) system.
-
-why a small local model (all-MiniLM-L6-v2)? it runs on our own machine (no api key, no cost, works
-offline), it is fast, and it outputs a compact 384-number vector that is plenty for our catalogue.
-"""
 import sys
 
 sys.path.insert(0, "src/graph")
@@ -17,14 +5,12 @@ from connection import get_driver
 
 from sentence_transformers import SentenceTransformer
 
-# the exact small model we use; 384 numbers per embedding, runs locally
 MODEL_NAME = "all-MiniLM-L6-v2"
-# how many games we handle per batch, just so we can print progress along the way
 BATCH_SIZE = 50
 
 
 def load_games_with_summary(session):
-    # ask the graph for every game that actually has a written summary
+    # ask the graph for every game that actually has a written summary - used LLM to learn and write
     result = session.run(
         "MATCH (g:Game) WHERE g.summary <> '' RETURN g.slug AS slug, g.summary AS summary"
     )

@@ -56,7 +56,7 @@
     </section>
 
     <section>
-      <h2>2. How do you like to play?</h2>
+      <h2>2. How do you like to play? <span class="optional">(or skip these and just describe your mood in step 5)</span></h2>
       <div id="quiz">loading questions...</div>
     </section>
 
@@ -152,7 +152,12 @@
       const results = document.getElementById("results");
 
       if (!platform) { results.innerHTML = "<p class='error'>please choose a platform first.</p>"; return; }
-      if (answers.includes(null)) { results.innerHTML = "<p class='error'>please answer every question.</p>"; return; }
+      // you can either answer the whole quiz, or skip it and just describe your mood in the vibe box
+      const vibeFilled = document.getElementById("vibe").value.trim() !== "";
+      if (answers.includes(null) && !vibeFilled) {
+        results.innerHTML = "<p class='error'>please answer every question, or describe what you're in the mood for below.</p>";
+        return;
+      }
 
       const ageValue = document.getElementById("age").value;
       const maxAge = ageValue === "" ? null : Number(ageValue);

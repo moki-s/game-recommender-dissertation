@@ -36,21 +36,41 @@ WITH g, matched_motivations, won_awards, accessibility_matches,
      (CASE WHEN size(won_awards) > 0 THEN 2 ELSE 0 END) +
      (CASE WHEN nominated_count > 0 THEN 1 ELSE 0 END) AS award_bonus
 
+// work out the raw vibe similarity once (0.0 when the user gave no vibe text)
+WITH g, matched_motivations, won_awards, accessibility_matches, motivation_score, award_bonus,
+     (CASE WHEN $vibe_vector IS NULL THEN 0.0
+           ELSE coalesce(vector.similarity.cosine(g.embedding, $vibe_vector), 0.0) END) AS vibe_sim
+
+// the embedding similarities all sit in a narrow high band, so a raw cosine adds nearly the same amount
+// to every game and barely reorders them. we rescale the useful band ($vibe_floor..$vibe_ceiling) to
+// 0..1 so the vibe reflects how well a game matches the mood relative to the others.
 // final score = motivations + award bonus + accessibility bonus - used LLM help here as i was slightly new to this
 WITH g, matched_motivations, won_awards, accessibility_matches,
      motivation_score + award_bonus + (accessibility_matches * 3) +
-     (CASE WHEN $vibe_vector IS NULL THEN 0.0
-           ELSE $vibe_weight * coalesce(vector.similarity.cosine(g.embedding, $vibe_vector), 0.0)
-      END) AS score
-RETURN g.title AS title,
-       g.metacritic AS metacritic,
-       score,
-       matched_motivations,
-       won_awards,
-       accessibility_matches
+     ($vibe_weight * (CASE WHEN vibe_sim <= $vibe_floor THEN 0.0
+                           WHEN vibe_sim >= $vibe_ceiling THEN 1.0
+                           ELSE (vibe_sim - $vibe_floor) / ($vibe_ceiling - $vibe_floor) END)) AS score
+
+// some games are in the catalogue as several editions sharing one normalised title (a game and its
+// complete/definitive edition). order by score, then keep only the best edition per title, so the same
+// game can never take more than one slot in the results.
 ORDER BY score DESC, accessibility_matches DESC, g.metacritic DESC
+WITH g.normalised_title AS group_title,
+     collect({title: g.title, metacritic: g.metacritic, score: score,
+              matched_motivations: matched_motivations, won_awards: won_awards,
+              accessibility_matches: accessibility_matches})[0] AS best
+RETURN best.title AS title,
+       best.metacritic AS metacritic,
+       best.score AS score,
+       best.matched_motivations AS matched_motivations,
+       best.won_awards AS won_awards,
+       best.accessibility_matches AS accessibility_matches
+ORDER BY score DESC, accessibility_matches DESC, metacritic DESC
 LIMIT $limit
 """
+
+VIBE_FLOOR = 0.5
+VIBE_CEILING = 0.75
 
 
 def recommend_games(platform, motivation_weights, required_accessibility=None,
@@ -77,6 +97,8 @@ def recommend_games(platform, motivation_weights, required_accessibility=None,
             limit=limit,
             vibe_vector=vibe_vector,
             vibe_weight=vibe_weight,
+            vibe_floor=VIBE_FLOOR,
+            vibe_ceiling=VIBE_CEILING,
         )
 
         # done here to get simple list of results back

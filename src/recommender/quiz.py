@@ -61,6 +61,9 @@ QUESTIONS = [
 def score_answers(answers):
     weights = {}
     for question_index, option_index in enumerate(answers):
+        # option_index is None when the user skipped that question (they described a vibe instead) - ignore it
+        if option_index is None:
+            continue
         chosen_option = QUESTIONS[question_index]["options"][option_index]
         for motivation, weight in chosen_option["weights"].items():
             weights[motivation] = weights.get(motivation, 0.0) + weight

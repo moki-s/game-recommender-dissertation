@@ -1,9 +1,6 @@
-"""reshape the kaggle "the game awards" dataset into our standard awards format."""
-
 import csv
 
 INPUT_PATH = "data/raw/kaggle_game_awards.csv"
-# the kaggle unanimad/the-game-awards dataset, downloaded by hand
 OUTPUT_PATH = "data/processed/awards_seed.csv"
 
 AWARD_NAME = "The Game Awards"
@@ -51,7 +48,6 @@ if __name__ == "__main__":
     save_seed_csv(seed_rows)
 
     distinct_games = {row["game_title"] for row in seed_rows}
-    # a set only keeps unique values, so its length is the distinct game count
 
     print(f"{len(seed_rows)} award rows produced")
     print(f"{len(distinct_games)} distinct games covered")

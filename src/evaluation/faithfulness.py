@@ -9,7 +9,7 @@ from explain import explain_recommendation, build_facts_text
 from personas import PERSONAS
 
 OUTPUT_CSV = "data/processed/faithfulness_results.csv"
-VIBE_WEIGHT = 3.0
+VIBE_WEIGHT = 5.0
 
 # the ten motivation names so we can spot a motivation the sentence names that the game did not match
 ALL_MOTIVATIONS = ["advancement", "competition", "customization", "discovery", "escapism",

@@ -1,8 +1,8 @@
 persona,system,rank,game_title,score,matched_motivations,award,accessibility_matches,on_correct_platform,within_age_limit
 Explorer,graph,1,Red Dead Redemption 2,7.0,role-playing; discovery,The Game Awards 2018 - Best Narrative,0,True,True
 Explorer,graph,2,The Witcher 3 Wild Hunt - Complete Edition,7.0,discovery; role-playing,The Game Awards 2014 - Most Anticipated Game 2015,0,True,True
-Explorer,graph,3,The Witcher 3: Wild Hunt,7.0,role-playing; discovery,The Game Awards 2014 - Most Anticipated Game 2015,0,True,True
-Explorer,graph,4,Metal Gear Solid V: The Phantom Pain,7.0,role-playing; discovery,The Game Awards 2015 - Best Score/Soundtrack,0,True,True
+Explorer,graph,3,Metal Gear Solid V: The Phantom Pain,7.0,role-playing; discovery,The Game Awards 2015 - Best Score/Soundtrack,0,True,True
+Explorer,graph,4,What Remains of Edith Finch,7.0,discovery; role-playing,The Game Awards 2017 - Best Narrative,0,True,True
 Explorer,graph,5,Monster Hunter: World,7.0,discovery; role-playing,The Game Awards 2018 - Best Role Playing Game,0,True,True
 Explorer,baseline,1,Tomb Raider (1996),0.735,none,none,0,True,True
 Explorer,baseline,2,A Monster's Expedition,0.726,none,none,0,True,True
@@ -12,7 +12,7 @@ Explorer,baseline,5,BioShock Infinite,0.706,none,none,0,True,True
 Competitor,graph,1,Baldur's Gate III,6.0,advancement; competition,The Game Awards 2023 - Game of the Year,0,True,True
 Competitor,graph,2,Elden Ring,6.0,advancement; competition,The Game Awards 2022 - Game of the Year,0,True,True
 Competitor,graph,3,The Witcher 3 Wild Hunt - Complete Edition,5.0,advancement,The Game Awards 2014 - Most Anticipated Game 2015,0,True,True
-Competitor,graph,4,The Witcher 3: Wild Hunt,5.0,advancement,The Game Awards 2014 - Most Anticipated Game 2015,0,True,True
+Competitor,graph,4,Devil May Cry 5,5.0,competition,The Game Awards 2019 - Best Action Game,0,True,True
 Competitor,graph,5,Deathloop,5.0,advancement; competition,none,0,True,True
 Competitor,baseline,1,Game Dev Story,0.735,none,none,0,False,True
 Competitor,baseline,2,Sid Meier's Civilization 2,0.719,none,none,0,False,True
@@ -52,18 +52,18 @@ Social / teamwork player,baseline,5,Tumblestone,0.685,none,none,0,False,True
 Completionist achiever,graph,1,Into the Breach,7.0,advancement; mechanics,The Game Awards 2018 - Best Strategy Game,0,True,True
 Completionist achiever,graph,2,Baldur's Gate III,6.0,advancement; mechanics,The Game Awards 2023 - Game of the Year,0,True,True
 Completionist achiever,graph,3,Dragon Age: Inquisition,6.0,advancement; mechanics,The Game Awards 2014 - Game of the Year,0,True,True
-Completionist achiever,graph,4,Divinity: Original Sin 2,5.0,advancement; mechanics,none,0,True,True
-Completionist achiever,graph,5,XCOM 2: War of the Chosen,5.0,advancement; mechanics,none,0,True,True
+Completionist achiever,graph,4,XCOM 2: War of the Chosen,5.0,advancement; mechanics,none,0,True,True
+Completionist achiever,graph,5,Divinity: Original Sin 2,5.0,advancement; mechanics,none,0,True,True
 Completionist achiever,baseline,1,Game Dev Story,0.742,none,none,0,True,True
 Completionist achiever,baseline,2,Ori and the Will of the Wisps,0.709,none,none,0,True,True
 Completionist achiever,baseline,3,Deus Ex: Game of the Year Edition,0.708,none,none,0,True,True
 Completionist achiever,baseline,4,Deus Ex,0.708,none,none,0,True,True
 Completionist achiever,baseline,5,Age of Mythology,0.708,none,none,0,True,True
-Horror-vibe player,graph,1,Her Story,6.22,escapism,The Game Awards 2015 - Best Narrative,0,True,True
-Horror-vibe player,graph,2,INSIDE,6.167,escapism,The Game Awards 2016 - Best Art Direction,0,True,True
-Horror-vibe player,graph,3,Rez Infinite,5.911,escapism,The Game Awards 2016 - Best VR Game,0,True,True
-Horror-vibe player,graph,4,Overwatch,5.886,escapism,The Game Awards 2016 - Game of the Year,0,True,True
-Horror-vibe player,graph,5,Florence,5.764,escapism,The Game Awards 2018 - Best Mobile Game,0,True,True
+Horror-vibe player,graph,1,Her Story,8.798,escapism,The Game Awards 2015 - Best Narrative,0,True,True
+Horror-vibe player,graph,2,INSIDE,8.449,escapism,The Game Awards 2016 - Best Art Direction,0,True,True
+Horror-vibe player,graph,3,Rez Infinite,6.741,escapism,The Game Awards 2016 - Best VR Game,0,True,True
+Horror-vibe player,graph,4,Overwatch,6.574,escapism,The Game Awards 2016 - Game of the Year,0,True,True
+Horror-vibe player,graph,5,Dead Cells,6.555,none,The Game Awards 2018 - Best Action Game,0,True,True
 Horror-vibe player,baseline,1,BioShock Infinite,0.765,none,none,0,True,True
 Horror-vibe player,baseline,2,Deus Ex,0.727,none,none,0,True,True
 Horror-vibe player,baseline,3,Deus Ex: Game of the Year Edition,0.727,none,none,0,True,True

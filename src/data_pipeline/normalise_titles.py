@@ -24,10 +24,8 @@ def normalise_title(title):
     title = title.lower()
     title = strip_accents(title)
 
-    # used in order to remove a bracketed year like (2018)
     title = re.sub(r"\(\d{4}\)", " ", title)
 
-    # remove punctuation by deleting it.
     title = re.sub(r"[^\w\s]", "", title)
 
     for phrase in EDITION_PHRASES:

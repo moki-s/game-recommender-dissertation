@@ -1,15 +1,11 @@
-"""merge rawg and igdb game data into one file by matching titles across both."""
-
 import csv
 import re
-# re (regular expressions) lets us strip punctuation out of titles - used LLM for help
 
 RAWG_PATH = "data/processed/games_enriched.csv"
 IGDB_PATH = "data/processed/games_igdb.csv"
 MERGED_PATH = "data/processed/games_merged.csv"
 UNMATCHED_PATH = "data/processed/unmatched.csv"
 
-# common edition wording that gets added to re-releases but doesn't change what the underlying game is
 EDITION_WORDS = [
     "game of the year edition",
     "goty edition",
@@ -34,10 +30,9 @@ EDITION_WORDS = [
 
 def normalise_title(title):
     title = title.lower()
-    # lowercase first so "Half-Life" and "half-life" are treated as equal
 
     title = re.sub(r"[^\w\s]", "", title)
-    # \w means "word character" (letters/numbers/underscore)
+    # \w means "word character" (letters/numbers/underscore) - used LLM for help to understand
     # \s means whitespace, so this removes everything else - colons, apostrophes, hyphens - turning "Baldur's Gate III" into "baldurs gate iii" - used LLM for help
 
     for word in EDITION_WORDS:
@@ -83,7 +78,6 @@ def merge_games(rawg_rows, igdb_lookup):
             merged_row["pegi_rating"] = igdb_row["pegi_rating"]
             matched_keys.add(key)
         else:
-            # no igdb match, so we still keep the game but leave these blank
             merged_row["themes"] = ""
             merged_row["game_modes"] = ""
             merged_row["pegi_rating"] = ""
@@ -96,7 +90,6 @@ def merge_games(rawg_rows, igdb_lookup):
 
 def save_merged_csv(rows):
     fieldnames = list(rows[0].keys())
-    # reuse whatever columns the first row has (rawg's columns plus our 3 new ones)
     with open(MERGED_PATH, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
@@ -104,8 +97,6 @@ def save_merged_csv(rows):
 
 
 def save_unmatched_csv(unmatched_rawg):
-    # just title and release_year - enough information to go look the game
-    # up by hand and see why it didn't match
     rows = [{"title": r["title"], "release_year": r["release_year"]} for r in unmatched_rawg]
     with open(UNMATCHED_PATH, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=["title", "release_year"])
@@ -125,7 +116,6 @@ if __name__ == "__main__":
 
     matched_count = len(rawg_rows) - len(unmatched_rawg)
 
-    # count how many igdb rows' keys were never claimed by any rawg game
     igdb_unmatched_count = 0
     for row in igdb_rows:
         key = make_key(row["title"], row["release_year"])

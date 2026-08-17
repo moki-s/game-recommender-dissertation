@@ -1,5 +1,3 @@
-"""fetch acclaimed pc and ps5 games from the igdb api and save the raw response."""
-
 import json
 import os
 import sys
@@ -43,8 +41,6 @@ def build_query(offset):
         f"limit {LIMIT};"
         f"offset {offset};"
     )
-    # sort id asc matters for paging: without a fixed sort order, igdb could return games in a slightly different order each call, which risks us
-    # skipping or repeating games as we move the offset forward
 
 
 def fetch_games():
@@ -57,12 +53,10 @@ def fetch_games():
     all_games = []
     offset = 0
 
-    # we can't fetch 1,600+ games in one go since igdb caps each request at 500 results, so instead we ask for one page of 500 at a time 
     while True:
         query = build_query(offset)
         print(f"fetching games {offset} to {offset + LIMIT}...")
         response = requests.post(GAMES_URL, headers=headers, data=query)
-        # igdb expects a post request with the apicalypse query as the raw body, unlike rawg which used get requests with url parameters
         response.raise_for_status()
         games = response.json()
 
@@ -70,7 +64,6 @@ def fetch_games():
             break
 
         all_games.extend(games)
-        # add this batch games onto the end of our running list
 
         if len(games) < LIMIT:
             break
@@ -81,7 +74,6 @@ def fetch_games():
     return all_games
 
 def save_raw_json(games):
-    # to have this list as key so my other files can read this file the same way they read rawg_games.json
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump({"results": games}, f, indent=2)
     print(f"saved raw response to {OUTPUT_PATH}")

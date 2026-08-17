@@ -4,13 +4,11 @@ import sys
 sys.path.insert(0, "src/graph")
 from connection import get_driver
 
-# the input files this loader reads (all already normalised so titles match across sources)
 INPUT_PATH = "data/processed/games_merged_normalised.csv"
 AWARDS_PATH = "data/processed/awards_normalised.csv"
 ACCESSIBILITY_PATH = "data/processed/accessibility_normalised.csv"
 MOTIVATIONS_PATH = "data/processed/motivations.csv"
 
-# numbers in my csv are stored as text and a few cells are blank so we convert to real number only when data exists and leave others empty
 def to_int(value):
     return int(value) if value.strip() else None
 
@@ -23,7 +21,6 @@ RATING_AGES = {
 
 
 def get_rating_name(row):
-    # we prefer the pegi rating (our target region), and fall back to the esrb rating only when pegi is unknown.
     pegi = row["pegi_rating"].strip()
     esrb = row["esrb_rating"].strip()
     if pegi and pegi != "unknown":
@@ -32,7 +29,6 @@ def get_rating_name(row):
         return f"ESRB {esrb}"
     return "Unknown"
 
-# to delete deverything first so there are no dupes so script runs safely.
 def wipe_database(session):
     session.run("MATCH (n) DETACH DELETE n")
 
@@ -64,7 +60,6 @@ def load_game(session, row):
 
     for platform in row["platforms"].split("; "):
         if platform.strip():
-            # MERGE the Platform so all pc games point at ONE shared PC node
             session.run(
                 """
                 MATCH (g:Game {slug: $slug})
@@ -74,7 +69,6 @@ def load_game(session, row):
                 slug=row["slug"], name=platform.strip(),
             )
 
-    # one shared Genre node per name, linked to this game
     for genre in row["genres"].split("; "):
         if genre.strip():
             session.run(
@@ -94,7 +88,6 @@ def load_game(session, row):
         SET a.age = $age
         MERGE (g)-[:RATED]->(a)
         """,
-        # look the numeric age up from the table where the default to 99 if the name isn't listed
         slug=row["slug"], name=rating_name, age=RATING_AGES.get(rating_name, 99),
     )
 
@@ -174,7 +167,6 @@ def load_accessibility(session):
         else:
             skipped += 1
 
-    # ask the graph how many distinct games ended up with at least one accessibility feature
     games_with_access = session.run(
         "MATCH (g:Game)-[:SUPPORTS]->(:AccessibilityFeature) RETURN count(DISTINCT g) AS c"
     ).single()["c"]
@@ -227,7 +219,7 @@ def load_motivations(session):
 
         label = label_for_type[row["satisfied_by_type"]]
 
-        # design choice i made here is that no direct game to motivation link as a game reaches a motivation through its
+        # design choice I made here is that no direct game to motivation link as a game reaches a motivation through its
         # genres or themes or modes, and that path (game)->(x)<-[:SATISFIED_BY]-(motivation) IS the explanation 
         query = (
             "MATCH (m:Motivation {name: $name}) "
@@ -242,8 +234,6 @@ def load_motivations(session):
 
 
 def print_summary(session):
-    # count what we ended up with so we can sanity-check the load at a glance.
-    # this small inner helper runs a count query and returns the single number it produces.
     def count(query):
         return session.run(query).single()["c"]
 
